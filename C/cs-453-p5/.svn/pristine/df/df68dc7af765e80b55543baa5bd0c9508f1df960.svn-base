@@ -1,0 +1,51 @@
+\hypertarget{mylib_2Node_8h}{}\section{mylib/\+Node.h File Reference}
+\label{mylib_2Node_8h}\index{mylib/\+Node.\+h@{mylib/\+Node.\+h}}
+{\ttfamily \#include $<$stdio.\+h$>$}\\*
+{\ttfamily \#include $<$stdlib.\+h$>$}\\*
+{\ttfamily \#include \char`\"{}common.\+h\char`\"{}}\\*
+\subsection*{Data Structures}
+\begin{DoxyCompactItemize}
+\item 
+struct \hyperlink{structnode}{node}
+\end{DoxyCompactItemize}
+\subsection*{Typedefs}
+\begin{DoxyCompactItemize}
+\item 
+typedef struct \hyperlink{structnode}{node} \hyperlink{mylib_2Node_8h_ac09cf950484bd9550d14d602b0e5e7fb}{Node}
+\item 
+typedef struct \hyperlink{structnode}{node} $\ast$ \hyperlink{mylib_2Node_8h_aa6eec21621b8638e350fd0ec238a9715}{Node\+Ptr}
+\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{include_2Node_8h_aa6eec21621b8638e350fd0ec238a9715}{Node\+Ptr} \hyperlink{mylib_2Node_8h_a7e935be7098e9f8fd94ca88245907c05}{create\+Node} (const void $\ast$obj)
+\item 
+void \hyperlink{mylib_2Node_8h_ac044884ec72d2928d62fcf648f60fdee}{free\+Node} (const \hyperlink{include_2Node_8h_aa6eec21621b8638e350fd0ec238a9715}{Node\+Ptr} \hyperlink{structnode}{node}, void($\ast$\hyperlink{mylib_2Object_8h_ad224f50cb1912941fc68947b6fc03219}{free\+Object})(const void $\ast$))
+\end{DoxyCompactItemize}
+
+
+\subsection{Typedef Documentation}
+\hypertarget{mylib_2Node_8h_ac09cf950484bd9550d14d602b0e5e7fb}{}\index{mylib/\+Node.\+h@{mylib/\+Node.\+h}!Node@{Node}}
+\index{Node@{Node}!mylib/\+Node.\+h@{mylib/\+Node.\+h}}
+\subsubsection[{Node}]{\setlength{\rightskip}{0pt plus 5cm}typedef struct {\bf node} {\bf Node}}\label{mylib_2Node_8h_ac09cf950484bd9550d14d602b0e5e7fb}
+\hypertarget{mylib_2Node_8h_aa6eec21621b8638e350fd0ec238a9715}{}\index{mylib/\+Node.\+h@{mylib/\+Node.\+h}!Node\+Ptr@{Node\+Ptr}}
+\index{Node\+Ptr@{Node\+Ptr}!mylib/\+Node.\+h@{mylib/\+Node.\+h}}
+\subsubsection[{Node\+Ptr}]{\setlength{\rightskip}{0pt plus 5cm}typedef struct {\bf node}$\ast$ {\bf Node\+Ptr}}\label{mylib_2Node_8h_aa6eec21621b8638e350fd0ec238a9715}
+
+
+\subsection{Function Documentation}
+\hypertarget{mylib_2Node_8h_a7e935be7098e9f8fd94ca88245907c05}{}\index{mylib/\+Node.\+h@{mylib/\+Node.\+h}!create\+Node@{create\+Node}}
+\index{create\+Node@{create\+Node}!mylib/\+Node.\+h@{mylib/\+Node.\+h}}
+\subsubsection[{create\+Node}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Node\+Ptr} create\+Node (
+\begin{DoxyParamCaption}
+\item[{const void $\ast$}]{obj}
+\end{DoxyParamCaption}
+)}\label{mylib_2Node_8h_a7e935be7098e9f8fd94ca88245907c05}
+\hypertarget{mylib_2Node_8h_ac044884ec72d2928d62fcf648f60fdee}{}\index{mylib/\+Node.\+h@{mylib/\+Node.\+h}!free\+Node@{free\+Node}}
+\index{free\+Node@{free\+Node}!mylib/\+Node.\+h@{mylib/\+Node.\+h}}
+\subsubsection[{free\+Node}]{\setlength{\rightskip}{0pt plus 5cm}void free\+Node (
+\begin{DoxyParamCaption}
+\item[{const {\bf Node\+Ptr}}]{node, }
+\item[{void($\ast$)(const void $\ast$)}]{free\+Object}
+\end{DoxyParamCaption}
+)}\label{mylib_2Node_8h_ac044884ec72d2928d62fcf648f60fdee}

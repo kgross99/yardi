@@ -1,0 +1,47 @@
+\hypertarget{structlist}{}\section{list Struct Reference}
+\label{structlist}\index{list@{list}}
+
+
+{\ttfamily \#include $<$List.\+h$>$}
+
+\subsection*{Data Fields}
+\begin{DoxyCompactItemize}
+\item 
+int \hyperlink{structlist_a3b03adad0c0429bae9493667ff366dc2}{size}
+\item 
+\hyperlink{include_2Node_8h_aa6eec21621b8638e350fd0ec238a9715}{Node\+Ptr} \hyperlink{structlist_a357a56cbe66297fb5cc5cd8ba9fa6cf4}{head}
+\item 
+\hyperlink{include_2Node_8h_aa6eec21621b8638e350fd0ec238a9715}{Node\+Ptr} \hyperlink{structlist_a7fba27040dab68e2d6acc2885b6df167}{tail}
+\item 
+int($\ast$ \hyperlink{structlist_ad3ad01e7ea22f2e0590e1d5549c8ab7f}{compare\+To} )(const void $\ast$, const void $\ast$)
+\item 
+char $\ast$($\ast$ \hyperlink{structlist_a42d6b0844dfb82a44cbeaab4f7ec0877}{to\+String} )(const void $\ast$)
+\item 
+void($\ast$ \hyperlink{structlist_a04091cb910e425d1226562197fe0bf8c}{free\+Object} )(const void $\ast$)
+\end{DoxyCompactItemize}
+
+
+\subsection{Field Documentation}
+\hypertarget{structlist_ad3ad01e7ea22f2e0590e1d5549c8ab7f}{}\index{list@{list}!compare\+To@{compare\+To}}
+\index{compare\+To@{compare\+To}!list@{list}}
+\subsubsection[{compare\+To}]{\setlength{\rightskip}{0pt plus 5cm}int($\ast$ list\+::compare\+To)(const void $\ast$, const void $\ast$)}\label{structlist_ad3ad01e7ea22f2e0590e1d5549c8ab7f}
+\hypertarget{structlist_a04091cb910e425d1226562197fe0bf8c}{}\index{list@{list}!free\+Object@{free\+Object}}
+\index{free\+Object@{free\+Object}!list@{list}}
+\subsubsection[{free\+Object}]{\setlength{\rightskip}{0pt plus 5cm}void($\ast$ list\+::free\+Object)(const void $\ast$)}\label{structlist_a04091cb910e425d1226562197fe0bf8c}
+\hypertarget{structlist_a357a56cbe66297fb5cc5cd8ba9fa6cf4}{}\index{list@{list}!head@{head}}
+\index{head@{head}!list@{list}}
+\subsubsection[{head}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Node\+Ptr} list\+::head}\label{structlist_a357a56cbe66297fb5cc5cd8ba9fa6cf4}
+\hypertarget{structlist_a3b03adad0c0429bae9493667ff366dc2}{}\index{list@{list}!size@{size}}
+\index{size@{size}!list@{list}}
+\subsubsection[{size}]{\setlength{\rightskip}{0pt plus 5cm}int list\+::size}\label{structlist_a3b03adad0c0429bae9493667ff366dc2}
+\hypertarget{structlist_a7fba27040dab68e2d6acc2885b6df167}{}\index{list@{list}!tail@{tail}}
+\index{tail@{tail}!list@{list}}
+\subsubsection[{tail}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Node\+Ptr} list\+::tail}\label{structlist_a7fba27040dab68e2d6acc2885b6df167}
+\hypertarget{structlist_a42d6b0844dfb82a44cbeaab4f7ec0877}{}\index{list@{list}!to\+String@{to\+String}}
+\index{to\+String@{to\+String}!list@{list}}
+\subsubsection[{to\+String}]{\setlength{\rightskip}{0pt plus 5cm}char $\ast$($\ast$ list\+::to\+String)(const void $\ast$)}\label{structlist_a42d6b0844dfb82a44cbeaab4f7ec0877}
+
+
+The documentation for this struct was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+include/\hyperlink{include_2List_8h}{List.\+h}\end{DoxyCompactItemize}

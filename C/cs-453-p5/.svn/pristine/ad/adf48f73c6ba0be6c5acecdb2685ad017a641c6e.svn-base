@@ -1,0 +1,73 @@
+\hypertarget{mydash_8h}{}\section{mydash.\+h File Reference}
+\label{mydash_8h}\index{mydash.\+h@{mydash.\+h}}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{mydash_8h_af2c33993823763083f4be22a931746de}{trim\+\_\+leading\+\_\+and\+\_\+trailing\+\_\+whitespace} (char $\ast$)
+\item 
+int \hyperlink{mydash_8h_af0adb99105eea9ea84e1be6656e7cf3b}{check\+\_\+for\+\_\+background} (char $\ast$)
+\item 
+int \hyperlink{mydash_8h_aaf5dbca6eb908081bc2cdfadac21b739}{check\+\_\+version} (const char $\ast$)
+\item 
+int \hyperlink{mydash_8h_a1ef36c74f93a2d3c094676e0d7f68344}{decode\+\_\+command} (char $\ast$, \hyperlink{include_2List_8h_a861ccde58c51198da7548ab818f1bbdd}{List\+Ptr})
+\item 
+void \hyperlink{mydash_8h_a21d90b5958bb12b908f0166059c06dd2}{update\+\_\+jobs\+\_\+status} (\hyperlink{include_2List_8h_a861ccde58c51198da7548ab818f1bbdd}{List\+Ptr}, int)
+\item 
+int \hyperlink{mydash_8h_ab520d48f695581dafec54e00e42b29f6}{getjobid} (\hyperlink{include_2List_8h_a861ccde58c51198da7548ab818f1bbdd}{List\+Ptr})
+\item 
+char $\ast$ \hyperlink{mydash_8h_aa9c33ae746c727e8fdf516afe644d719}{svn\+\_\+version} (void)
+\end{DoxyCompactItemize}
+
+
+\subsection{Function Documentation}
+\hypertarget{mydash_8h_af0adb99105eea9ea84e1be6656e7cf3b}{}\index{mydash.\+h@{mydash.\+h}!check\+\_\+for\+\_\+background@{check\+\_\+for\+\_\+background}}
+\index{check\+\_\+for\+\_\+background@{check\+\_\+for\+\_\+background}!mydash.\+h@{mydash.\+h}}
+\subsubsection[{check\+\_\+for\+\_\+background}]{\setlength{\rightskip}{0pt plus 5cm}int check\+\_\+for\+\_\+background (
+\begin{DoxyParamCaption}
+\item[{char $\ast$}]{}
+\end{DoxyParamCaption}
+)}\label{mydash_8h_af0adb99105eea9ea84e1be6656e7cf3b}
+\hypertarget{mydash_8h_aaf5dbca6eb908081bc2cdfadac21b739}{}\index{mydash.\+h@{mydash.\+h}!check\+\_\+version@{check\+\_\+version}}
+\index{check\+\_\+version@{check\+\_\+version}!mydash.\+h@{mydash.\+h}}
+\subsubsection[{check\+\_\+version}]{\setlength{\rightskip}{0pt plus 5cm}int check\+\_\+version (
+\begin{DoxyParamCaption}
+\item[{const char $\ast$}]{}
+\end{DoxyParamCaption}
+)}\label{mydash_8h_aaf5dbca6eb908081bc2cdfadac21b739}
+\hypertarget{mydash_8h_a1ef36c74f93a2d3c094676e0d7f68344}{}\index{mydash.\+h@{mydash.\+h}!decode\+\_\+command@{decode\+\_\+command}}
+\index{decode\+\_\+command@{decode\+\_\+command}!mydash.\+h@{mydash.\+h}}
+\subsubsection[{decode\+\_\+command}]{\setlength{\rightskip}{0pt plus 5cm}int decode\+\_\+command (
+\begin{DoxyParamCaption}
+\item[{char $\ast$}]{, }
+\item[{{\bf List\+Ptr}}]{}
+\end{DoxyParamCaption}
+)}\label{mydash_8h_a1ef36c74f93a2d3c094676e0d7f68344}
+\hypertarget{mydash_8h_ab520d48f695581dafec54e00e42b29f6}{}\index{mydash.\+h@{mydash.\+h}!getjobid@{getjobid}}
+\index{getjobid@{getjobid}!mydash.\+h@{mydash.\+h}}
+\subsubsection[{getjobid}]{\setlength{\rightskip}{0pt plus 5cm}int getjobid (
+\begin{DoxyParamCaption}
+\item[{{\bf List\+Ptr}}]{}
+\end{DoxyParamCaption}
+)}\label{mydash_8h_ab520d48f695581dafec54e00e42b29f6}
+\hypertarget{mydash_8h_aa9c33ae746c727e8fdf516afe644d719}{}\index{mydash.\+h@{mydash.\+h}!svn\+\_\+version@{svn\+\_\+version}}
+\index{svn\+\_\+version@{svn\+\_\+version}!mydash.\+h@{mydash.\+h}}
+\subsubsection[{svn\+\_\+version}]{\setlength{\rightskip}{0pt plus 5cm}char$\ast$ svn\+\_\+version (
+\begin{DoxyParamCaption}
+\item[{void}]{}
+\end{DoxyParamCaption}
+)}\label{mydash_8h_aa9c33ae746c727e8fdf516afe644d719}
+\hypertarget{mydash_8h_af2c33993823763083f4be22a931746de}{}\index{mydash.\+h@{mydash.\+h}!trim\+\_\+leading\+\_\+and\+\_\+trailing\+\_\+whitespace@{trim\+\_\+leading\+\_\+and\+\_\+trailing\+\_\+whitespace}}
+\index{trim\+\_\+leading\+\_\+and\+\_\+trailing\+\_\+whitespace@{trim\+\_\+leading\+\_\+and\+\_\+trailing\+\_\+whitespace}!mydash.\+h@{mydash.\+h}}
+\subsubsection[{trim\+\_\+leading\+\_\+and\+\_\+trailing\+\_\+whitespace}]{\setlength{\rightskip}{0pt plus 5cm}void trim\+\_\+leading\+\_\+and\+\_\+trailing\+\_\+whitespace (
+\begin{DoxyParamCaption}
+\item[{char $\ast$}]{}
+\end{DoxyParamCaption}
+)}\label{mydash_8h_af2c33993823763083f4be22a931746de}
+\hypertarget{mydash_8h_a21d90b5958bb12b908f0166059c06dd2}{}\index{mydash.\+h@{mydash.\+h}!update\+\_\+jobs\+\_\+status@{update\+\_\+jobs\+\_\+status}}
+\index{update\+\_\+jobs\+\_\+status@{update\+\_\+jobs\+\_\+status}!mydash.\+h@{mydash.\+h}}
+\subsubsection[{update\+\_\+jobs\+\_\+status}]{\setlength{\rightskip}{0pt plus 5cm}void update\+\_\+jobs\+\_\+status (
+\begin{DoxyParamCaption}
+\item[{{\bf List\+Ptr}}]{, }
+\item[{int}]{}
+\end{DoxyParamCaption}
+)}\label{mydash_8h_a21d90b5958bb12b908f0166059c06dd2}

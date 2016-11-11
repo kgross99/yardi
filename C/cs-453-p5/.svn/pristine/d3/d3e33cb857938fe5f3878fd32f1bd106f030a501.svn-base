@@ -1,0 +1,104 @@
+\hypertarget{buddy-unit-test_8c}{}\section{buddyzorz/buddy-\/unit-\/test.c File Reference}
+\label{buddy-unit-test_8c}\index{buddyzorz/buddy-\/unit-\/test.\+c@{buddyzorz/buddy-\/unit-\/test.\+c}}
+{\ttfamily \#include $<$stdio.\+h$>$}\\*
+{\ttfamily \#include $<$stdlib.\+h$>$}\\*
+{\ttfamily \#include \char`\"{}buddy.\+h\char`\"{}}\\*
+\subsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\#define \hyperlink{buddy-unit-test_8c_a79dc55ceff5acfd97aabd01db632a266}{M\+A\+X\+\_\+\+R\+E\+Q\+U\+E\+S\+T}~4096
+\item 
+\#define \hyperlink{buddy-unit-test_8c_a1b40ceb455086d9cdb68ed3d3bf2775f}{M\+A\+X\+\_\+\+I\+T\+E\+M\+S}~100
+\item 
+\#define \hyperlink{buddy-unit-test_8c_a404d5107b2cc06d2e236b7320df1fa7d}{S\+I\+L\+E\+N\+T}~0
+\item 
+\#define \hyperlink{buddy-unit-test_8c_ae70000f46dd84121830128e1701090ee}{T\+E\+R\+S\+E}~1
+\item 
+\#define \hyperlink{buddy-unit-test_8c_a42f8c497a1968074f38bf5055c650dca}{V\+E\+R\+B\+O\+S\+E}~2
+\item 
+\#define \hyperlink{buddy-unit-test_8c_aa68dfac40a260bde9272c46bdf82613a}{I\+N\+T\+E\+R\+A\+C\+T\+I\+V\+E}~3
+\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+static void \hyperlink{buddy-unit-test_8c_a5283ebd4e5a191250f0c3528393bfd85}{print\+And\+Clear} ()
+\item 
+void \hyperlink{buddy-unit-test_8c_aef4bcb90051645261dc7ccb937ca0693}{simple\+Free\+Test} ()
+\item 
+void \hyperlink{buddy-unit-test_8c_a6bad681abb6cdfc69492114649d7c84a}{back\+And\+Forth\+Free\+Test} ()
+\item 
+void \hyperlink{buddy-unit-test_8c_aaf9651701b8501630d7f1d87fe30406e}{max\+Allocation\+Test} ()
+\item 
+int \hyperlink{buddy-unit-test_8c_a0ddf1224851353fc92bfbff6f499fa97}{main} (int argc, char $\ast$argv\mbox{[}$\,$\mbox{]})
+\end{DoxyCompactItemize}
+\subsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+int \hyperlink{buddy-unit-test_8c_a1bdcfae3209cbd96db35a2ae356fa15e}{verbosity} = \hyperlink{malloc-test_8c_ae70000f46dd84121830128e1701090ee}{T\+E\+R\+S\+E}
+\end{DoxyCompactItemize}
+
+
+\subsection{Macro Definition Documentation}
+\hypertarget{buddy-unit-test_8c_aa68dfac40a260bde9272c46bdf82613a}{}\index{buddy-\/unit-\/test.\+c@{buddy-\/unit-\/test.\+c}!I\+N\+T\+E\+R\+A\+C\+T\+I\+V\+E@{I\+N\+T\+E\+R\+A\+C\+T\+I\+V\+E}}
+\index{I\+N\+T\+E\+R\+A\+C\+T\+I\+V\+E@{I\+N\+T\+E\+R\+A\+C\+T\+I\+V\+E}!buddy-\/unit-\/test.\+c@{buddy-\/unit-\/test.\+c}}
+\subsubsection[{I\+N\+T\+E\+R\+A\+C\+T\+I\+V\+E}]{\setlength{\rightskip}{0pt plus 5cm}\#define I\+N\+T\+E\+R\+A\+C\+T\+I\+V\+E~3}\label{buddy-unit-test_8c_aa68dfac40a260bde9272c46bdf82613a}
+\hypertarget{buddy-unit-test_8c_a1b40ceb455086d9cdb68ed3d3bf2775f}{}\index{buddy-\/unit-\/test.\+c@{buddy-\/unit-\/test.\+c}!M\+A\+X\+\_\+\+I\+T\+E\+M\+S@{M\+A\+X\+\_\+\+I\+T\+E\+M\+S}}
+\index{M\+A\+X\+\_\+\+I\+T\+E\+M\+S@{M\+A\+X\+\_\+\+I\+T\+E\+M\+S}!buddy-\/unit-\/test.\+c@{buddy-\/unit-\/test.\+c}}
+\subsubsection[{M\+A\+X\+\_\+\+I\+T\+E\+M\+S}]{\setlength{\rightskip}{0pt plus 5cm}\#define M\+A\+X\+\_\+\+I\+T\+E\+M\+S~100}\label{buddy-unit-test_8c_a1b40ceb455086d9cdb68ed3d3bf2775f}
+\hypertarget{buddy-unit-test_8c_a79dc55ceff5acfd97aabd01db632a266}{}\index{buddy-\/unit-\/test.\+c@{buddy-\/unit-\/test.\+c}!M\+A\+X\+\_\+\+R\+E\+Q\+U\+E\+S\+T@{M\+A\+X\+\_\+\+R\+E\+Q\+U\+E\+S\+T}}
+\index{M\+A\+X\+\_\+\+R\+E\+Q\+U\+E\+S\+T@{M\+A\+X\+\_\+\+R\+E\+Q\+U\+E\+S\+T}!buddy-\/unit-\/test.\+c@{buddy-\/unit-\/test.\+c}}
+\subsubsection[{M\+A\+X\+\_\+\+R\+E\+Q\+U\+E\+S\+T}]{\setlength{\rightskip}{0pt plus 5cm}\#define M\+A\+X\+\_\+\+R\+E\+Q\+U\+E\+S\+T~4096}\label{buddy-unit-test_8c_a79dc55ceff5acfd97aabd01db632a266}
+\hypertarget{buddy-unit-test_8c_a404d5107b2cc06d2e236b7320df1fa7d}{}\index{buddy-\/unit-\/test.\+c@{buddy-\/unit-\/test.\+c}!S\+I\+L\+E\+N\+T@{S\+I\+L\+E\+N\+T}}
+\index{S\+I\+L\+E\+N\+T@{S\+I\+L\+E\+N\+T}!buddy-\/unit-\/test.\+c@{buddy-\/unit-\/test.\+c}}
+\subsubsection[{S\+I\+L\+E\+N\+T}]{\setlength{\rightskip}{0pt plus 5cm}\#define S\+I\+L\+E\+N\+T~0}\label{buddy-unit-test_8c_a404d5107b2cc06d2e236b7320df1fa7d}
+\hypertarget{buddy-unit-test_8c_ae70000f46dd84121830128e1701090ee}{}\index{buddy-\/unit-\/test.\+c@{buddy-\/unit-\/test.\+c}!T\+E\+R\+S\+E@{T\+E\+R\+S\+E}}
+\index{T\+E\+R\+S\+E@{T\+E\+R\+S\+E}!buddy-\/unit-\/test.\+c@{buddy-\/unit-\/test.\+c}}
+\subsubsection[{T\+E\+R\+S\+E}]{\setlength{\rightskip}{0pt plus 5cm}\#define T\+E\+R\+S\+E~1}\label{buddy-unit-test_8c_ae70000f46dd84121830128e1701090ee}
+\hypertarget{buddy-unit-test_8c_a42f8c497a1968074f38bf5055c650dca}{}\index{buddy-\/unit-\/test.\+c@{buddy-\/unit-\/test.\+c}!V\+E\+R\+B\+O\+S\+E@{V\+E\+R\+B\+O\+S\+E}}
+\index{V\+E\+R\+B\+O\+S\+E@{V\+E\+R\+B\+O\+S\+E}!buddy-\/unit-\/test.\+c@{buddy-\/unit-\/test.\+c}}
+\subsubsection[{V\+E\+R\+B\+O\+S\+E}]{\setlength{\rightskip}{0pt plus 5cm}\#define V\+E\+R\+B\+O\+S\+E~2}\label{buddy-unit-test_8c_a42f8c497a1968074f38bf5055c650dca}
+
+
+\subsection{Function Documentation}
+\hypertarget{buddy-unit-test_8c_a6bad681abb6cdfc69492114649d7c84a}{}\index{buddy-\/unit-\/test.\+c@{buddy-\/unit-\/test.\+c}!back\+And\+Forth\+Free\+Test@{back\+And\+Forth\+Free\+Test}}
+\index{back\+And\+Forth\+Free\+Test@{back\+And\+Forth\+Free\+Test}!buddy-\/unit-\/test.\+c@{buddy-\/unit-\/test.\+c}}
+\subsubsection[{back\+And\+Forth\+Free\+Test}]{\setlength{\rightskip}{0pt plus 5cm}void back\+And\+Forth\+Free\+Test (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{buddy-unit-test_8c_a6bad681abb6cdfc69492114649d7c84a}
+\hypertarget{buddy-unit-test_8c_a0ddf1224851353fc92bfbff6f499fa97}{}\index{buddy-\/unit-\/test.\+c@{buddy-\/unit-\/test.\+c}!main@{main}}
+\index{main@{main}!buddy-\/unit-\/test.\+c@{buddy-\/unit-\/test.\+c}}
+\subsubsection[{main}]{\setlength{\rightskip}{0pt plus 5cm}int main (
+\begin{DoxyParamCaption}
+\item[{int}]{argc, }
+\item[{char $\ast$}]{argv\mbox{[}$\,$\mbox{]}}
+\end{DoxyParamCaption}
+)}\label{buddy-unit-test_8c_a0ddf1224851353fc92bfbff6f499fa97}
+\hypertarget{buddy-unit-test_8c_aaf9651701b8501630d7f1d87fe30406e}{}\index{buddy-\/unit-\/test.\+c@{buddy-\/unit-\/test.\+c}!max\+Allocation\+Test@{max\+Allocation\+Test}}
+\index{max\+Allocation\+Test@{max\+Allocation\+Test}!buddy-\/unit-\/test.\+c@{buddy-\/unit-\/test.\+c}}
+\subsubsection[{max\+Allocation\+Test}]{\setlength{\rightskip}{0pt plus 5cm}void max\+Allocation\+Test (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{buddy-unit-test_8c_aaf9651701b8501630d7f1d87fe30406e}
+\hypertarget{buddy-unit-test_8c_a5283ebd4e5a191250f0c3528393bfd85}{}\index{buddy-\/unit-\/test.\+c@{buddy-\/unit-\/test.\+c}!print\+And\+Clear@{print\+And\+Clear}}
+\index{print\+And\+Clear@{print\+And\+Clear}!buddy-\/unit-\/test.\+c@{buddy-\/unit-\/test.\+c}}
+\subsubsection[{print\+And\+Clear}]{\setlength{\rightskip}{0pt plus 5cm}static void print\+And\+Clear (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\label{buddy-unit-test_8c_a5283ebd4e5a191250f0c3528393bfd85}
+\hypertarget{buddy-unit-test_8c_aef4bcb90051645261dc7ccb937ca0693}{}\index{buddy-\/unit-\/test.\+c@{buddy-\/unit-\/test.\+c}!simple\+Free\+Test@{simple\+Free\+Test}}
+\index{simple\+Free\+Test@{simple\+Free\+Test}!buddy-\/unit-\/test.\+c@{buddy-\/unit-\/test.\+c}}
+\subsubsection[{simple\+Free\+Test}]{\setlength{\rightskip}{0pt plus 5cm}void simple\+Free\+Test (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{buddy-unit-test_8c_aef4bcb90051645261dc7ccb937ca0693}
+
+
+\subsection{Variable Documentation}
+\hypertarget{buddy-unit-test_8c_a1bdcfae3209cbd96db35a2ae356fa15e}{}\index{buddy-\/unit-\/test.\+c@{buddy-\/unit-\/test.\+c}!verbosity@{verbosity}}
+\index{verbosity@{verbosity}!buddy-\/unit-\/test.\+c@{buddy-\/unit-\/test.\+c}}
+\subsubsection[{verbosity}]{\setlength{\rightskip}{0pt plus 5cm}int verbosity = {\bf T\+E\+R\+S\+E}}\label{buddy-unit-test_8c_a1bdcfae3209cbd96db35a2ae356fa15e}

@@ -1,0 +1,560 @@
+\hypertarget{mylib_2List_8h}{}\section{mylib/\+List.h File Reference}
+\label{mylib_2List_8h}\index{mylib/\+List.\+h@{mylib/\+List.\+h}}
+{\ttfamily \#include $<$stdio.\+h$>$}\\*
+{\ttfamily \#include $<$stdlib.\+h$>$}\\*
+{\ttfamily \#include \char`\"{}common.\+h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}Node.\+h\char`\"{}}\\*
+\subsection*{Data Structures}
+\begin{DoxyCompactItemize}
+\item 
+struct \hyperlink{structlist}{list}
+\end{DoxyCompactItemize}
+\subsection*{Typedefs}
+\begin{DoxyCompactItemize}
+\item 
+typedef struct \hyperlink{structlist}{list} \hyperlink{mylib_2List_8h_aa89b8bc105d9a09d4e7c06e8b34078a7}{List}
+\item 
+typedef struct \hyperlink{structlist}{list} $\ast$ \hyperlink{mylib_2List_8h_a861ccde58c51198da7548ab818f1bbdd}{List\+Ptr}
+\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{include_2List_8h_a861ccde58c51198da7548ab818f1bbdd}{List\+Ptr} \hyperlink{mylib_2List_8h_ac9beedc5dbdcce9fb20bfd5edbe2bd08}{create\+List} (int($\ast$\hyperlink{mylib_2Object_8h_a5cadf14267575f2ee8f0cf226af7a7aa}{compare\+To})(const void $\ast$, const void $\ast$), char $\ast$($\ast$\hyperlink{mylib_2Object_8h_a6dfc43d9b4cbc992846435ee727f3454}{to\+String})(const void $\ast$), void($\ast$\hyperlink{mylib_2Object_8h_ad224f50cb1912941fc68947b6fc03219}{free\+Object})(const void $\ast$))
+\begin{DoxyCompactList}\small\item\em Constructor\+: Allocates a new List object and initializes its members. \end{DoxyCompactList}\item 
+void \hyperlink{mylib_2List_8h_ad9957663fe65761dbf9031ee8280fdae}{free\+List} (const \hyperlink{include_2List_8h_a861ccde58c51198da7548ab818f1bbdd}{List\+Ptr} L)
+\begin{DoxyCompactList}\small\item\em Frees all elements of the given list and the {\ttfamily List\+Ptr} itself. \end{DoxyCompactList}\item 
+int \hyperlink{mylib_2List_8h_a43f9b7f7f62dca403a8629190a533a23}{get\+Size} (const \hyperlink{include_2List_8h_a861ccde58c51198da7548ab818f1bbdd}{List\+Ptr} L)
+\begin{DoxyCompactList}\small\item\em Returns the size of the given list. \end{DoxyCompactList}\item 
+\hyperlink{include_2common_8h_a127a96e09108f503cca20256eaa4ddff}{Boolean} \hyperlink{mylib_2List_8h_a6ac4ede2527b19f1b1da9da0d85cb976}{is\+Empty} (const \hyperlink{include_2List_8h_a861ccde58c51198da7548ab818f1bbdd}{List\+Ptr} L)
+\begin{DoxyCompactList}\small\item\em Checks if the list is empty. \end{DoxyCompactList}\item 
+void \hyperlink{mylib_2List_8h_a476cc4f9f3eac74de69922b337d3f5d4}{add\+At\+Front} (\hyperlink{include_2List_8h_a861ccde58c51198da7548ab818f1bbdd}{List\+Ptr} \hyperlink{structlist}{list}, \hyperlink{include_2Node_8h_aa6eec21621b8638e350fd0ec238a9715}{Node\+Ptr} \hyperlink{structnode}{node})
+\begin{DoxyCompactList}\small\item\em Adds a node to the front of the list. \end{DoxyCompactList}\item 
+void \hyperlink{mylib_2List_8h_a194ecb3333d63b8d9b65c9a1bc12e395}{add\+At\+Rear} (\hyperlink{include_2List_8h_a861ccde58c51198da7548ab818f1bbdd}{List\+Ptr} \hyperlink{structlist}{list}, \hyperlink{include_2Node_8h_aa6eec21621b8638e350fd0ec238a9715}{Node\+Ptr} \hyperlink{structnode}{node})
+\begin{DoxyCompactList}\small\item\em Adds a node to the rear of the list. \end{DoxyCompactList}\item 
+\hyperlink{include_2Node_8h_aa6eec21621b8638e350fd0ec238a9715}{Node\+Ptr} \hyperlink{mylib_2List_8h_a21ea604b2c4b634c83152e4de532ca33}{remove\+Front} (\hyperlink{include_2List_8h_a861ccde58c51198da7548ab818f1bbdd}{List\+Ptr} \hyperlink{structlist}{list})
+\begin{DoxyCompactList}\small\item\em Removes the node from the front of the list (the head node) and returns a pointer to the node that was removed. \end{DoxyCompactList}\item 
+\hyperlink{include_2Node_8h_aa6eec21621b8638e350fd0ec238a9715}{Node\+Ptr} \hyperlink{mylib_2List_8h_a79b7613686651c0fdd9ba75859ab1cf4}{remove\+Rear} (\hyperlink{include_2List_8h_a861ccde58c51198da7548ab818f1bbdd}{List\+Ptr} \hyperlink{structlist}{list})
+\begin{DoxyCompactList}\small\item\em Removes the node from the rear of the list (the tail node) and returns a pointer to the node that was removed. \end{DoxyCompactList}\item 
+\hyperlink{include_2Node_8h_aa6eec21621b8638e350fd0ec238a9715}{Node\+Ptr} \hyperlink{mylib_2List_8h_a7759b3a50942a4d588c73757ce2e15bf}{remove\+Node} (\hyperlink{include_2List_8h_a861ccde58c51198da7548ab818f1bbdd}{List\+Ptr} \hyperlink{structlist}{list}, \hyperlink{include_2Node_8h_aa6eec21621b8638e350fd0ec238a9715}{Node\+Ptr} \hyperlink{structnode}{node})
+\begin{DoxyCompactList}\small\item\em Removes the node pointed to by the given node pointer from the list and returns the pointer to it. \end{DoxyCompactList}\item 
+\hyperlink{include_2Node_8h_aa6eec21621b8638e350fd0ec238a9715}{Node\+Ptr} \hyperlink{mylib_2List_8h_aa5520d98825d2037e3d05b369c6e7dc1}{search} (const \hyperlink{include_2List_8h_a861ccde58c51198da7548ab818f1bbdd}{List\+Ptr} \hyperlink{structlist}{list}, const void $\ast$obj)
+\begin{DoxyCompactList}\small\item\em Searches the list for a node with the given key and returns the pointer to the found node. \end{DoxyCompactList}\item 
+void \hyperlink{mylib_2List_8h_a98ef2e3e4d692de272b451a11015fdad}{reverse\+List} (\hyperlink{include_2List_8h_a861ccde58c51198da7548ab818f1bbdd}{List\+Ptr} L)
+\begin{DoxyCompactList}\small\item\em Reverses the order of the given list. \end{DoxyCompactList}\item 
+void \hyperlink{mylib_2List_8h_afd2b3015c02dc09c508149f0873d64b0}{print\+List} (const \hyperlink{include_2List_8h_a861ccde58c51198da7548ab818f1bbdd}{List\+Ptr} L)
+\begin{DoxyCompactList}\small\item\em Prints the list. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Typedef Documentation}
+\hypertarget{mylib_2List_8h_aa89b8bc105d9a09d4e7c06e8b34078a7}{}\index{mylib/\+List.\+h@{mylib/\+List.\+h}!List@{List}}
+\index{List@{List}!mylib/\+List.\+h@{mylib/\+List.\+h}}
+\subsubsection[{List}]{\setlength{\rightskip}{0pt plus 5cm}typedef struct {\bf list} {\bf List}}\label{mylib_2List_8h_aa89b8bc105d9a09d4e7c06e8b34078a7}
+\hypertarget{mylib_2List_8h_a861ccde58c51198da7548ab818f1bbdd}{}\index{mylib/\+List.\+h@{mylib/\+List.\+h}!List\+Ptr@{List\+Ptr}}
+\index{List\+Ptr@{List\+Ptr}!mylib/\+List.\+h@{mylib/\+List.\+h}}
+\subsubsection[{List\+Ptr}]{\setlength{\rightskip}{0pt plus 5cm}typedef struct {\bf list}$\ast$ {\bf List\+Ptr}}\label{mylib_2List_8h_a861ccde58c51198da7548ab818f1bbdd}
+
+
+\subsection{Function Documentation}
+\hypertarget{mylib_2List_8h_a476cc4f9f3eac74de69922b337d3f5d4}{}\index{mylib/\+List.\+h@{mylib/\+List.\+h}!add\+At\+Front@{add\+At\+Front}}
+\index{add\+At\+Front@{add\+At\+Front}!mylib/\+List.\+h@{mylib/\+List.\+h}}
+\subsubsection[{add\+At\+Front}]{\setlength{\rightskip}{0pt plus 5cm}void add\+At\+Front (
+\begin{DoxyParamCaption}
+\item[{{\bf List\+Ptr}}]{list, }
+\item[{{\bf Node\+Ptr}}]{node}
+\end{DoxyParamCaption}
+)}\label{mylib_2List_8h_a476cc4f9f3eac74de69922b337d3f5d4}
+
+
+Adds a node to the front of the list. 
+
+After this method is called, the given node will be the head of the list. (Node must be allocated before it is passed to this function.) If the list and/or node are N\+U\+L\+L, the function will do nothing and return.
+
+
+\begin{DoxyParams}{Parameters}
+{\em list} & a pointer to a {\ttfamily List}. \\
+\hline
+{\em node} & a pointer to the node to add.\\
+\hline
+\end{DoxyParams}
+Adds a node to the front of the list.
+
+Adds a node to the front of a list 
+\begin{DoxyParams}{Parameters}
+{\em list} & a pointer to the list being added too \\
+\hline
+{\em node} & a pointer to the node being added\\
+\hline
+\end{DoxyParams}
+After this method is called, the given node will be the head of the list. (Node must be allocated before it is passed to this function.) If the list and/or node are N\+U\+L\+L, the function will do nothing and return.
+
+
+\begin{DoxyParams}{Parameters}
+{\em list} & a pointer to a {\ttfamily List}. \\
+\hline
+{\em node} & a pointer to the node to add.\\
+\hline
+\end{DoxyParams}
+Adds a node to the front of the list.
+
+Adds a node to the front of a list 
+\begin{DoxyParams}{Parameters}
+{\em list} & a pointer to the list being added too \\
+\hline
+{\em node} & a pointer to the node being added \\
+\hline
+\end{DoxyParams}
+\hypertarget{mylib_2List_8h_a194ecb3333d63b8d9b65c9a1bc12e395}{}\index{mylib/\+List.\+h@{mylib/\+List.\+h}!add\+At\+Rear@{add\+At\+Rear}}
+\index{add\+At\+Rear@{add\+At\+Rear}!mylib/\+List.\+h@{mylib/\+List.\+h}}
+\subsubsection[{add\+At\+Rear}]{\setlength{\rightskip}{0pt plus 5cm}void add\+At\+Rear (
+\begin{DoxyParamCaption}
+\item[{{\bf List\+Ptr}}]{list, }
+\item[{{\bf Node\+Ptr}}]{node}
+\end{DoxyParamCaption}
+)}\label{mylib_2List_8h_a194ecb3333d63b8d9b65c9a1bc12e395}
+
+
+Adds a node to the rear of the list. 
+
+After this method is called, the given node will be the tail of the list. (Node must be allocated before it is passed to this function.) If the list and/or node are N\+U\+L\+L, the function will do nothing and return.
+
+
+\begin{DoxyParams}{Parameters}
+{\em list} & a pointer to a {\ttfamily List}. \\
+\hline
+{\em node} & a pointer to the node to add.\\
+\hline
+\end{DoxyParams}
+Adds a node to the rear of the list.
+
+Adds a node to the rear of a list 
+\begin{DoxyParams}{Parameters}
+{\em list} & a pointer to the list being added too \\
+\hline
+{\em node} & a pointer to the node being added\\
+\hline
+\end{DoxyParams}
+After this method is called, the given node will be the tail of the list. (Node must be allocated before it is passed to this function.) If the list and/or node are N\+U\+L\+L, the function will do nothing and return.
+
+
+\begin{DoxyParams}{Parameters}
+{\em list} & a pointer to a {\ttfamily List}. \\
+\hline
+{\em node} & a pointer to the node to add.\\
+\hline
+\end{DoxyParams}
+Adds a node to the rear of the list.
+
+Adds a node to the rear of a list 
+\begin{DoxyParams}{Parameters}
+{\em list} & a pointer to the list being added too \\
+\hline
+{\em node} & a pointer to the node being added \\
+\hline
+\end{DoxyParams}
+\hypertarget{mylib_2List_8h_ac9beedc5dbdcce9fb20bfd5edbe2bd08}{}\index{mylib/\+List.\+h@{mylib/\+List.\+h}!create\+List@{create\+List}}
+\index{create\+List@{create\+List}!mylib/\+List.\+h@{mylib/\+List.\+h}}
+\subsubsection[{create\+List}]{\setlength{\rightskip}{0pt plus 5cm}{\bf List\+Ptr} create\+List (
+\begin{DoxyParamCaption}
+\item[{int($\ast$)(const void $\ast$, const void $\ast$)}]{compare\+To, }
+\item[{char $\ast$($\ast$)(const void $\ast$)}]{to\+String, }
+\item[{void($\ast$)(const void $\ast$)}]{free\+Object}
+\end{DoxyParamCaption}
+)}\label{mylib_2List_8h_ac9beedc5dbdcce9fb20bfd5edbe2bd08}
+
+
+Constructor\+: Allocates a new List object and initializes its members. 
+
+{\ttfamily (size = 0; head = N\+U\+L\+L, tail = N\+U\+L\+L)}.
+
+\begin{DoxyReturn}{Returns}
+a pointer to the allocated list.
+\end{DoxyReturn}
+Constructor\+: Allocates a new List object and initializes its members.
+
+Creates a new list and returns a pointer to the list. 
+\begin{DoxyParams}{Parameters}
+{\em compare\+To} & a function pointer used for comparison of nodes. \\
+\hline
+{\em to\+String} & a function pointer used for String converstion. \\
+\hline
+{\em free\+Object} & a function pointer used for deallocate generic object types. \\
+\hline
+\end{DoxyParams}
+\hypertarget{mylib_2List_8h_ad9957663fe65761dbf9031ee8280fdae}{}\index{mylib/\+List.\+h@{mylib/\+List.\+h}!free\+List@{free\+List}}
+\index{free\+List@{free\+List}!mylib/\+List.\+h@{mylib/\+List.\+h}}
+\subsubsection[{free\+List}]{\setlength{\rightskip}{0pt plus 5cm}void free\+List (
+\begin{DoxyParamCaption}
+\item[{{\bf List\+Ptr}}]{L}
+\end{DoxyParamCaption}
+)}\label{mylib_2List_8h_ad9957663fe65761dbf9031ee8280fdae}
+
+
+Frees all elements of the given list and the {\ttfamily List\+Ptr} itself. 
+
+Does nothing if L is {\ttfamily N\+U\+L\+L}.
+
+
+\begin{DoxyParams}{Parameters}
+{\em L} & a pointer to a {\ttfamily List}.\\
+\hline
+\end{DoxyParams}
+Frees all elements of the given list and the {\ttfamily List\+Ptr} itself.
+
+Frees each individual node and then frees the list\textquotesingle{}s allocated memory. 
+\begin{DoxyParams}{Parameters}
+{\em list} & a pointer to the list to be deallocated\\
+\hline
+\end{DoxyParams}
+Does nothing if L is {\ttfamily N\+U\+L\+L}.
+
+
+\begin{DoxyParams}{Parameters}
+{\em L} & a pointer to a {\ttfamily List}.\\
+\hline
+\end{DoxyParams}
+Frees all elements of the given list and the {\ttfamily List\+Ptr} itself.
+
+Frees each individual node and then frees the list\textquotesingle{}s allocated memory. 
+\begin{DoxyParams}{Parameters}
+{\em list} & a pointer to the list to be deallocated \\
+\hline
+\end{DoxyParams}
+\hypertarget{mylib_2List_8h_a43f9b7f7f62dca403a8629190a533a23}{}\index{mylib/\+List.\+h@{mylib/\+List.\+h}!get\+Size@{get\+Size}}
+\index{get\+Size@{get\+Size}!mylib/\+List.\+h@{mylib/\+List.\+h}}
+\subsubsection[{get\+Size}]{\setlength{\rightskip}{0pt plus 5cm}int get\+Size (
+\begin{DoxyParamCaption}
+\item[{{\bf List\+Ptr}}]{L}
+\end{DoxyParamCaption}
+)}\label{mylib_2List_8h_a43f9b7f7f62dca403a8629190a533a23}
+
+
+Returns the size of the given list. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em L} & a pointer to a {\ttfamily List}. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The current size of the list.
+\end{DoxyReturn}
+Returns the size of the given list.
+
+Returns the current size of the list 
+\begin{DoxyParams}{Parameters}
+{\em list} & a pointer to the list being checked for size.\\
+\hline
+{\em L} & a pointer to a {\ttfamily List}. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The current size of the list.
+\end{DoxyReturn}
+Returns the size of the given list.
+
+Returns the current size of the list 
+\begin{DoxyParams}{Parameters}
+{\em list} & a pointer to the list being checked for size. \\
+\hline
+\end{DoxyParams}
+\hypertarget{mylib_2List_8h_a6ac4ede2527b19f1b1da9da0d85cb976}{}\index{mylib/\+List.\+h@{mylib/\+List.\+h}!is\+Empty@{is\+Empty}}
+\index{is\+Empty@{is\+Empty}!mylib/\+List.\+h@{mylib/\+List.\+h}}
+\subsubsection[{is\+Empty}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Boolean} is\+Empty (
+\begin{DoxyParamCaption}
+\item[{{\bf List\+Ptr}}]{L}
+\end{DoxyParamCaption}
+)}\label{mylib_2List_8h_a6ac4ede2527b19f1b1da9da0d85cb976}
+
+
+Checks if the list is empty. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em L} & a pointer to a {\ttfamily List}. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true if the list is empty; false otherwise.
+\end{DoxyReturn}
+Checks if the list is empty.
+
+Returns the status of whether a list has elements. 
+\begin{DoxyParams}{Parameters}
+{\em list} & a pointer to the list being checked if empty.\\
+\hline
+{\em L} & a pointer to a {\ttfamily List}. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true if the list is empty; false otherwise.
+\end{DoxyReturn}
+Checks if the list is empty.
+
+Returns the status of whether a list has elements. 
+\begin{DoxyParams}{Parameters}
+{\em list} & a pointer to the list being checked if empty. \\
+\hline
+\end{DoxyParams}
+\hypertarget{mylib_2List_8h_afd2b3015c02dc09c508149f0873d64b0}{}\index{mylib/\+List.\+h@{mylib/\+List.\+h}!print\+List@{print\+List}}
+\index{print\+List@{print\+List}!mylib/\+List.\+h@{mylib/\+List.\+h}}
+\subsubsection[{print\+List}]{\setlength{\rightskip}{0pt plus 5cm}void print\+List (
+\begin{DoxyParamCaption}
+\item[{const {\bf List\+Ptr}}]{list}
+\end{DoxyParamCaption}
+)}\label{mylib_2List_8h_afd2b3015c02dc09c508149f0873d64b0}
+
+
+Prints the list. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em list} & a pointer to a {\ttfamily List}.\\
+\hline
+\end{DoxyParams}
+Prints the list.
+
+Prints a human readable list of a list and it\textquotesingle{}s contents 
+\begin{DoxyParams}{Parameters}
+{\em list} & a pointer to the list being printed\\
+\hline
+{\em list} & a pointer to a {\ttfamily List}.\\
+\hline
+\end{DoxyParams}
+Prints the list.
+
+Prints a human readable list of a list and it\textquotesingle{}s contents 
+\begin{DoxyParams}{Parameters}
+{\em list} & a pointer to the list being printed \\
+\hline
+\end{DoxyParams}
+\hypertarget{mylib_2List_8h_a21ea604b2c4b634c83152e4de532ca33}{}\index{mylib/\+List.\+h@{mylib/\+List.\+h}!remove\+Front@{remove\+Front}}
+\index{remove\+Front@{remove\+Front}!mylib/\+List.\+h@{mylib/\+List.\+h}}
+\subsubsection[{remove\+Front}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Node\+Ptr} remove\+Front (
+\begin{DoxyParamCaption}
+\item[{{\bf List\+Ptr}}]{list}
+\end{DoxyParamCaption}
+)}\label{mylib_2List_8h_a21ea604b2c4b634c83152e4de532ca33}
+
+
+Removes the node from the front of the list (the head node) and returns a pointer to the node that was removed. 
+
+If the list is N\+U\+L\+L or empty, the function will do nothing and return N\+U\+L\+L.
+
+
+\begin{DoxyParams}{Parameters}
+{\em list} & a pointer to a {\ttfamily List}. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+a pointer to the node that was removed.
+\end{DoxyReturn}
+Removes the node from the front of the list (the head node) and returns a pointer to the node that was removed.
+
+Removes the front node of a list 
+\begin{DoxyParams}{Parameters}
+{\em list} & a pointer to the list being removed from \\
+\hline
+{\em node} & a pointer to the node being removed\\
+\hline
+\end{DoxyParams}
+If the list is N\+U\+L\+L or empty, the function will do nothing and return N\+U\+L\+L.
+
+
+\begin{DoxyParams}{Parameters}
+{\em list} & a pointer to a {\ttfamily List}. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+a pointer to the node that was removed.
+\end{DoxyReturn}
+Removes the node from the front of the list (the head node) and returns a pointer to the node that was removed.
+
+Removes the front node of a list 
+\begin{DoxyParams}{Parameters}
+{\em list} & a pointer to the list being removed from \\
+\hline
+{\em node} & a pointer to the node being removed \\
+\hline
+\end{DoxyParams}
+\hypertarget{mylib_2List_8h_a7759b3a50942a4d588c73757ce2e15bf}{}\index{mylib/\+List.\+h@{mylib/\+List.\+h}!remove\+Node@{remove\+Node}}
+\index{remove\+Node@{remove\+Node}!mylib/\+List.\+h@{mylib/\+List.\+h}}
+\subsubsection[{remove\+Node}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Node\+Ptr} remove\+Node (
+\begin{DoxyParamCaption}
+\item[{{\bf List\+Ptr}}]{list, }
+\item[{{\bf Node\+Ptr}}]{node}
+\end{DoxyParamCaption}
+)}\label{mylib_2List_8h_a7759b3a50942a4d588c73757ce2e15bf}
+
+
+Removes the node pointed to by the given node pointer from the list and returns the pointer to it. 
+
+Assumes that the node is a valid node in the list. If the node pointer is N\+U\+L\+L, the function will do nothing and return N\+U\+L\+L.
+
+
+\begin{DoxyParams}{Parameters}
+{\em list} & a pointer to a {\ttfamily List}. \\
+\hline
+{\em node} & a pointer to the node to remove. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+a pointer to the node that was removed.
+\end{DoxyReturn}
+Removes the node pointed to by the given node pointer from the list and returns the pointer to it.
+
+Removes a node from a given list 
+\begin{DoxyParams}{Parameters}
+{\em list} & a pointer to the list being removed from \\
+\hline
+{\em node} & a pointer to the node being removed\\
+\hline
+\end{DoxyParams}
+Assumes that the node is a valid node in the list. If the node pointer is N\+U\+L\+L, the function will do nothing and return N\+U\+L\+L.
+
+
+\begin{DoxyParams}{Parameters}
+{\em list} & a pointer to a {\ttfamily List}. \\
+\hline
+{\em node} & a pointer to the node to remove. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+a pointer to the node that was removed.
+\end{DoxyReturn}
+Removes the node pointed to by the given node pointer from the list and returns the pointer to it.
+
+Removes a node from a given list 
+\begin{DoxyParams}{Parameters}
+{\em list} & a pointer to the list being removed from \\
+\hline
+{\em node} & a pointer to the node being removed \\
+\hline
+\end{DoxyParams}
+\hypertarget{mylib_2List_8h_a79b7613686651c0fdd9ba75859ab1cf4}{}\index{mylib/\+List.\+h@{mylib/\+List.\+h}!remove\+Rear@{remove\+Rear}}
+\index{remove\+Rear@{remove\+Rear}!mylib/\+List.\+h@{mylib/\+List.\+h}}
+\subsubsection[{remove\+Rear}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Node\+Ptr} remove\+Rear (
+\begin{DoxyParamCaption}
+\item[{{\bf List\+Ptr}}]{list}
+\end{DoxyParamCaption}
+)}\label{mylib_2List_8h_a79b7613686651c0fdd9ba75859ab1cf4}
+
+
+Removes the node from the rear of the list (the tail node) and returns a pointer to the node that was removed. 
+
+If the list is N\+U\+L\+L or empty, the function will do nothing and return N\+U\+L\+L.
+
+
+\begin{DoxyParams}{Parameters}
+{\em list} & a pointer to a {\ttfamily List}. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+a pointer to the node that was removed.
+\end{DoxyReturn}
+Removes the node from the rear of the list (the tail node) and returns a pointer to the node that was removed.
+
+Removes the rear node of a list 
+\begin{DoxyParams}{Parameters}
+{\em list} & a pointer to the list being removed from \\
+\hline
+{\em node} & a pointer to the node being removed\\
+\hline
+\end{DoxyParams}
+If the list is N\+U\+L\+L or empty, the function will do nothing and return N\+U\+L\+L.
+
+
+\begin{DoxyParams}{Parameters}
+{\em list} & a pointer to a {\ttfamily List}. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+a pointer to the node that was removed.
+\end{DoxyReturn}
+Removes the node from the rear of the list (the tail node) and returns a pointer to the node that was removed.
+
+Removes the rear node of a list 
+\begin{DoxyParams}{Parameters}
+{\em list} & a pointer to the list being removed from \\
+\hline
+{\em node} & a pointer to the node being removed \\
+\hline
+\end{DoxyParams}
+\hypertarget{mylib_2List_8h_a98ef2e3e4d692de272b451a11015fdad}{}\index{mylib/\+List.\+h@{mylib/\+List.\+h}!reverse\+List@{reverse\+List}}
+\index{reverse\+List@{reverse\+List}!mylib/\+List.\+h@{mylib/\+List.\+h}}
+\subsubsection[{reverse\+List}]{\setlength{\rightskip}{0pt plus 5cm}void reverse\+List (
+\begin{DoxyParamCaption}
+\item[{{\bf List\+Ptr}}]{L}
+\end{DoxyParamCaption}
+)}\label{mylib_2List_8h_a98ef2e3e4d692de272b451a11015fdad}
+
+
+Reverses the order of the given list. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em list} & a pointer to a {\ttfamily List}.\\
+\hline
+\end{DoxyParams}
+Reverses the order of the given list.
+
+Reverses the order of a given list 
+\begin{DoxyParams}{Parameters}
+{\em list} & a pointer to the list being searched\\
+\hline
+{\em list} & a pointer to a {\ttfamily List}.\\
+\hline
+\end{DoxyParams}
+Reverses the order of the given list.
+
+Reverses the order of a given list 
+\begin{DoxyParams}{Parameters}
+{\em list} & a pointer to the list being searched \\
+\hline
+\end{DoxyParams}
+\hypertarget{mylib_2List_8h_aa5520d98825d2037e3d05b369c6e7dc1}{}\index{mylib/\+List.\+h@{mylib/\+List.\+h}!search@{search}}
+\index{search@{search}!mylib/\+List.\+h@{mylib/\+List.\+h}}
+\subsubsection[{search}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Node\+Ptr} search (
+\begin{DoxyParamCaption}
+\item[{{\bf List\+Ptr}}]{list, }
+\item[{const void $\ast$}]{o}
+\end{DoxyParamCaption}
+)}\label{mylib_2List_8h_aa5520d98825d2037e3d05b369c6e7dc1}
+
+
+Searches the list for a node with the given key and returns the pointer to the found node. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em list} & a pointer to a {\ttfamily List}. \\
+\hline
+{\em the} & object to search for. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+a pointer to the node that was found. Or {\ttfamily N\+U\+L\+L} if a node with the given key is not found or the list is {\ttfamily N\+U\+L\+L} or empty.
+\end{DoxyReturn}
+Searches the list for a node with the given key and returns the pointer to the found node.
+
+searches a given list for a node containing a given object 
+\begin{DoxyParams}{Parameters}
+{\em list} & a pointer to the list being searched \\
+\hline
+{\em obj} & a pointer to an object being searched for\\
+\hline
+{\em list} & a pointer to a {\ttfamily List}. \\
+\hline
+{\em the} & object to search for. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+a pointer to the node that was found. Or {\ttfamily N\+U\+L\+L} if a node with the given key is not found or the list is {\ttfamily N\+U\+L\+L} or empty.
+\end{DoxyReturn}
+Searches the list for a node with the given key and returns the pointer to the found node.
+
+searches a given list for a node containing a given object 
+\begin{DoxyParams}{Parameters}
+{\em list} & a pointer to the list being searched \\
+\hline
+{\em obj} & a pointer to an object being searched for \\
+\hline
+\end{DoxyParams}

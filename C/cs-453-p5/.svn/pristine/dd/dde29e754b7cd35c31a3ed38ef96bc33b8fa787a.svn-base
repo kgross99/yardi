@@ -1,0 +1,7 @@
+var searchData=
+[
+  ['pname',['pname',['../error_8c.html#a277430f8b1d8fbc4f488b55e2d0efd77',1,'error.c']]],
+  ['pool',['pool',['../buddy_8c.html#a269c3935f8bc66db70bccdd02cb05e3c',1,'buddy.c']]],
+  ['prev',['prev',['../structblock__header_1_1block__info.html#a64a2cad5d8a970fc47aff6409ba0fc3d',1,'block_header::block_info::prev()'],['../structnode.html#a8f67d90e34c478e9dd9a5bd51574c8c4',1,'node::prev()']]],
+  ['ptr',['ptr',['../structelement.html#a132505b73acb9639ab81524dbf845200',1,'element']]]
+];

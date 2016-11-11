@@ -1,0 +1,8 @@
+var searchData=
+[
+  ['max_5fitems',['MAX_ITEMS',['../buddy-test_8c.html#a1b40ceb455086d9cdb68ed3d3bf2775f',1,'MAX_ITEMS():&#160;buddy-test.c'],['../buddy-unit-test_8c.html#a1b40ceb455086d9cdb68ed3d3bf2775f',1,'MAX_ITEMS():&#160;buddy-unit-test.c'],['../malloc-test_8c.html#a1b40ceb455086d9cdb68ed3d3bf2775f',1,'MAX_ITEMS():&#160;malloc-test.c']]],
+  ['max_5frequest',['MAX_REQUEST',['../buddy-test_8c.html#a79dc55ceff5acfd97aabd01db632a266',1,'MAX_REQUEST():&#160;buddy-test.c'],['../buddy-unit-test_8c.html#a79dc55ceff5acfd97aabd01db632a266',1,'MAX_REQUEST():&#160;buddy-unit-test.c'],['../malloc-test_8c.html#a79dc55ceff5acfd97aabd01db632a266',1,'MAX_REQUEST():&#160;malloc-test.c']]],
+  ['maxline',['MAXLINE',['../ourhdr_8h.html#a3e937c42922f7601edb17b747602c471',1,'ourhdr.h']]],
+  ['maxpid_5fdigits',['MAXPID_DIGITS',['../include_2Object_8h.html#a1653a0144cd23cc1933abae261151780',1,'MAXPID_DIGITS():&#160;Object.h'],['../libsrc_2Object_8h.html#a1653a0144cd23cc1933abae261151780',1,'MAXPID_DIGITS():&#160;Object.h'],['../mylib_2Object_8h.html#a1653a0144cd23cc1933abae261151780',1,'MAXPID_DIGITS():&#160;Object.h']]],
+  ['minimum_5fblock_5fsize',['MINIMUM_BLOCK_SIZE',['../buddy_8h.html#a8bb89887c78184fcf57d5240b5c0b6e6',1,'buddy.h']]]
+];

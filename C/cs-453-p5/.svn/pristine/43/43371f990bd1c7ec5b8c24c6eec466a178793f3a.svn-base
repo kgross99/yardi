@@ -1,0 +1,24 @@
+\hypertarget{structelement}{}\section{element Struct Reference}
+\label{structelement}\index{element@{element}}
+\subsection*{Data Fields}
+\begin{DoxyCompactItemize}
+\item 
+char $\ast$ \hyperlink{structelement_a132505b73acb9639ab81524dbf845200}{ptr}
+\item 
+size\+\_\+t \hyperlink{structelement_af5f39eb9d176171d49f822f47906e555}{size}
+\end{DoxyCompactItemize}
+
+
+\subsection{Field Documentation}
+\hypertarget{structelement_a132505b73acb9639ab81524dbf845200}{}\index{element@{element}!ptr@{ptr}}
+\index{ptr@{ptr}!element@{element}}
+\subsubsection[{ptr}]{\setlength{\rightskip}{0pt plus 5cm}char $\ast$ element\+::ptr}\label{structelement_a132505b73acb9639ab81524dbf845200}
+\hypertarget{structelement_af5f39eb9d176171d49f822f47906e555}{}\index{element@{element}!size@{size}}
+\index{size@{size}!element@{element}}
+\subsubsection[{size}]{\setlength{\rightskip}{0pt plus 5cm}size\+\_\+t element\+::size}\label{structelement_af5f39eb9d176171d49f822f47906e555}
+
+
+The documentation for this struct was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+buddyzorz/\hyperlink{buddy-test_8c}{buddy-\/test.\+c}\item 
+buddyzorz/\hyperlink{malloc-test_8c}{malloc-\/test.\+c}\end{DoxyCompactItemize}

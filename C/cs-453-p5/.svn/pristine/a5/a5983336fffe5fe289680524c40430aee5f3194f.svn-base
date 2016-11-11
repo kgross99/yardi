@@ -1,0 +1,81 @@
+\hypertarget{libsrc_2Object_8h}{}\section{libsrc/\+Object.h File Reference}
+\label{libsrc_2Object_8h}\index{libsrc/\+Object.\+h@{libsrc/\+Object.\+h}}
+{\ttfamily \#include $<$stdio.\+h$>$}\\*
+{\ttfamily \#include $<$stdlib.\+h$>$}\\*
+{\ttfamily \#include \char`\"{}common.\+h\char`\"{}}\\*
+\subsection*{Data Structures}
+\begin{DoxyCompactItemize}
+\item 
+struct \hyperlink{structobject}{object}
+\end{DoxyCompactItemize}
+\subsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\#define \hyperlink{libsrc_2Object_8h_a1653a0144cd23cc1933abae261151780}{M\+A\+X\+P\+I\+D\+\_\+\+D\+I\+G\+I\+T\+S}~20
+\end{DoxyCompactItemize}
+\subsection*{Typedefs}
+\begin{DoxyCompactItemize}
+\item 
+typedef struct \hyperlink{structobject}{object} \hyperlink{libsrc_2Object_8h_ac1d573b78381906e7299e87cab9152bc}{Object}
+\item 
+typedef struct \hyperlink{structobject}{object} $\ast$ \hyperlink{libsrc_2Object_8h_af72795906b536e52763816d0e642dec8}{Object\+Ptr}
+\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{include_2Object_8h_af72795906b536e52763816d0e642dec8}{Object\+Ptr} \hyperlink{libsrc_2Object_8h_a7f4dd17b0868139d48d9b588584c0fda}{create\+Object} (const int, const char $\ast$)
+\item 
+char $\ast$ \hyperlink{libsrc_2Object_8h_a6dfc43d9b4cbc992846435ee727f3454}{to\+String} (const void $\ast$)
+\item 
+void \hyperlink{libsrc_2Object_8h_ad224f50cb1912941fc68947b6fc03219}{free\+Object} (const void $\ast$)
+\item 
+int \hyperlink{libsrc_2Object_8h_a5cadf14267575f2ee8f0cf226af7a7aa}{compare\+To} (const void $\ast$, const void $\ast$)
+\end{DoxyCompactItemize}
+
+
+\subsection{Macro Definition Documentation}
+\hypertarget{libsrc_2Object_8h_a1653a0144cd23cc1933abae261151780}{}\index{libsrc/\+Object.\+h@{libsrc/\+Object.\+h}!M\+A\+X\+P\+I\+D\+\_\+\+D\+I\+G\+I\+T\+S@{M\+A\+X\+P\+I\+D\+\_\+\+D\+I\+G\+I\+T\+S}}
+\index{M\+A\+X\+P\+I\+D\+\_\+\+D\+I\+G\+I\+T\+S@{M\+A\+X\+P\+I\+D\+\_\+\+D\+I\+G\+I\+T\+S}!libsrc/\+Object.\+h@{libsrc/\+Object.\+h}}
+\subsubsection[{M\+A\+X\+P\+I\+D\+\_\+\+D\+I\+G\+I\+T\+S}]{\setlength{\rightskip}{0pt plus 5cm}\#define M\+A\+X\+P\+I\+D\+\_\+\+D\+I\+G\+I\+T\+S~20}\label{libsrc_2Object_8h_a1653a0144cd23cc1933abae261151780}
+
+
+\subsection{Typedef Documentation}
+\hypertarget{libsrc_2Object_8h_ac1d573b78381906e7299e87cab9152bc}{}\index{libsrc/\+Object.\+h@{libsrc/\+Object.\+h}!Object@{Object}}
+\index{Object@{Object}!libsrc/\+Object.\+h@{libsrc/\+Object.\+h}}
+\subsubsection[{Object}]{\setlength{\rightskip}{0pt plus 5cm}typedef struct {\bf object} {\bf Object}}\label{libsrc_2Object_8h_ac1d573b78381906e7299e87cab9152bc}
+\hypertarget{libsrc_2Object_8h_af72795906b536e52763816d0e642dec8}{}\index{libsrc/\+Object.\+h@{libsrc/\+Object.\+h}!Object\+Ptr@{Object\+Ptr}}
+\index{Object\+Ptr@{Object\+Ptr}!libsrc/\+Object.\+h@{libsrc/\+Object.\+h}}
+\subsubsection[{Object\+Ptr}]{\setlength{\rightskip}{0pt plus 5cm}typedef struct {\bf object}$\ast$ {\bf Object\+Ptr}}\label{libsrc_2Object_8h_af72795906b536e52763816d0e642dec8}
+
+
+\subsection{Function Documentation}
+\hypertarget{libsrc_2Object_8h_a5cadf14267575f2ee8f0cf226af7a7aa}{}\index{libsrc/\+Object.\+h@{libsrc/\+Object.\+h}!compare\+To@{compare\+To}}
+\index{compare\+To@{compare\+To}!libsrc/\+Object.\+h@{libsrc/\+Object.\+h}}
+\subsubsection[{compare\+To}]{\setlength{\rightskip}{0pt plus 5cm}int compare\+To (
+\begin{DoxyParamCaption}
+\item[{const void $\ast$}]{, }
+\item[{const void $\ast$}]{}
+\end{DoxyParamCaption}
+)}\label{libsrc_2Object_8h_a5cadf14267575f2ee8f0cf226af7a7aa}
+\hypertarget{libsrc_2Object_8h_a7f4dd17b0868139d48d9b588584c0fda}{}\index{libsrc/\+Object.\+h@{libsrc/\+Object.\+h}!create\+Object@{create\+Object}}
+\index{create\+Object@{create\+Object}!libsrc/\+Object.\+h@{libsrc/\+Object.\+h}}
+\subsubsection[{create\+Object}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Object\+Ptr} create\+Object (
+\begin{DoxyParamCaption}
+\item[{const int}]{, }
+\item[{const char $\ast$}]{}
+\end{DoxyParamCaption}
+)}\label{libsrc_2Object_8h_a7f4dd17b0868139d48d9b588584c0fda}
+\hypertarget{libsrc_2Object_8h_ad224f50cb1912941fc68947b6fc03219}{}\index{libsrc/\+Object.\+h@{libsrc/\+Object.\+h}!free\+Object@{free\+Object}}
+\index{free\+Object@{free\+Object}!libsrc/\+Object.\+h@{libsrc/\+Object.\+h}}
+\subsubsection[{free\+Object}]{\setlength{\rightskip}{0pt plus 5cm}void free\+Object (
+\begin{DoxyParamCaption}
+\item[{const void $\ast$}]{}
+\end{DoxyParamCaption}
+)}\label{libsrc_2Object_8h_ad224f50cb1912941fc68947b6fc03219}
+\hypertarget{libsrc_2Object_8h_a6dfc43d9b4cbc992846435ee727f3454}{}\index{libsrc/\+Object.\+h@{libsrc/\+Object.\+h}!to\+String@{to\+String}}
+\index{to\+String@{to\+String}!libsrc/\+Object.\+h@{libsrc/\+Object.\+h}}
+\subsubsection[{to\+String}]{\setlength{\rightskip}{0pt plus 5cm}char$\ast$ to\+String (
+\begin{DoxyParamCaption}
+\item[{const void $\ast$}]{}
+\end{DoxyParamCaption}
+)}\label{libsrc_2Object_8h_a6dfc43d9b4cbc992846435ee727f3454}

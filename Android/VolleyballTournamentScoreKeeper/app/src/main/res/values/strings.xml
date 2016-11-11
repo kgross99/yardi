@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Volleyball Tournament ScoreKeeper</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="single_game">Single Game</string>
+    <string name="new_game">New Game</string>
+    <string name="show_subtitle">Show Subtitle</string>
+    <string name="hide_subtitle">Hide Subtitle</string>
+    <string name="subtitle_format">%1$s games</string>
+
+</resources>

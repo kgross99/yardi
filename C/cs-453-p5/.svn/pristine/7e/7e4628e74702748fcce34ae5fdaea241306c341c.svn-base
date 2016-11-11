@@ -1,0 +1,32 @@
+\hypertarget{structobject}{}\section{object Struct Reference}
+\label{structobject}\index{object@{object}}
+
+
+{\ttfamily \#include $<$Object.\+h$>$}
+
+\subsection*{Data Fields}
+\begin{DoxyCompactItemize}
+\item 
+int \hyperlink{structobject_a8b7ebbdba2d1901d446969bc8dd20fa8}{key}
+\item 
+char $\ast$ \hyperlink{structobject_ae638068985b982ab4d3f41f00ffdcfff}{data}
+\item 
+int \hyperlink{structobject_a5258684d10a0adef3a1baca0e162c6ab}{jobid}
+\end{DoxyCompactItemize}
+
+
+\subsection{Field Documentation}
+\hypertarget{structobject_ae638068985b982ab4d3f41f00ffdcfff}{}\index{object@{object}!data@{data}}
+\index{data@{data}!object@{object}}
+\subsubsection[{data}]{\setlength{\rightskip}{0pt plus 5cm}char $\ast$ object\+::data}\label{structobject_ae638068985b982ab4d3f41f00ffdcfff}
+\hypertarget{structobject_a5258684d10a0adef3a1baca0e162c6ab}{}\index{object@{object}!jobid@{jobid}}
+\index{jobid@{jobid}!object@{object}}
+\subsubsection[{jobid}]{\setlength{\rightskip}{0pt plus 5cm}int object\+::jobid}\label{structobject_a5258684d10a0adef3a1baca0e162c6ab}
+\hypertarget{structobject_a8b7ebbdba2d1901d446969bc8dd20fa8}{}\index{object@{object}!key@{key}}
+\index{key@{key}!object@{object}}
+\subsubsection[{key}]{\setlength{\rightskip}{0pt plus 5cm}int object\+::key}\label{structobject_a8b7ebbdba2d1901d446969bc8dd20fa8}
+
+
+The documentation for this struct was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+include/\hyperlink{include_2Object_8h}{Object.\+h}\end{DoxyCompactItemize}

@@ -1,0 +1,37 @@
+\hypertarget{structblock__header_1_1block__info}{}\section{block\+\_\+header\+:\+:block\+\_\+info Struct Reference}
+\label{structblock__header_1_1block__info}\index{block\+\_\+header\+::block\+\_\+info@{block\+\_\+header\+::block\+\_\+info}}
+
+
+{\ttfamily \#include $<$buddy.\+h$>$}
+
+\subsection*{Data Fields}
+\begin{DoxyCompactItemize}
+\item 
+int \hyperlink{structblock__header_1_1block__info_a78fd5b67b888b20d13c7704861833662}{kval}
+\item 
+int \hyperlink{structblock__header_1_1block__info_abf7257d0db0b11adfe263027f9fd08de}{tag}
+\item 
+union \hyperlink{unionblock__header}{block\+\_\+header} $\ast$ \hyperlink{structblock__header_1_1block__info_a4c3d34b045ddb4d0bc2be1ecb5a00aea}{next}
+\item 
+union \hyperlink{unionblock__header}{block\+\_\+header} $\ast$ \hyperlink{structblock__header_1_1block__info_a64a2cad5d8a970fc47aff6409ba0fc3d}{prev}
+\end{DoxyCompactItemize}
+
+
+\subsection{Field Documentation}
+\hypertarget{structblock__header_1_1block__info_a78fd5b67b888b20d13c7704861833662}{}\index{block\+\_\+header\+::block\+\_\+info@{block\+\_\+header\+::block\+\_\+info}!kval@{kval}}
+\index{kval@{kval}!block\+\_\+header\+::block\+\_\+info@{block\+\_\+header\+::block\+\_\+info}}
+\subsubsection[{kval}]{\setlength{\rightskip}{0pt plus 5cm}int block\+\_\+header\+::block\+\_\+info\+::kval}\label{structblock__header_1_1block__info_a78fd5b67b888b20d13c7704861833662}
+\hypertarget{structblock__header_1_1block__info_a4c3d34b045ddb4d0bc2be1ecb5a00aea}{}\index{block\+\_\+header\+::block\+\_\+info@{block\+\_\+header\+::block\+\_\+info}!next@{next}}
+\index{next@{next}!block\+\_\+header\+::block\+\_\+info@{block\+\_\+header\+::block\+\_\+info}}
+\subsubsection[{next}]{\setlength{\rightskip}{0pt plus 5cm}union {\bf block\+\_\+header}$\ast$ block\+\_\+header\+::block\+\_\+info\+::next}\label{structblock__header_1_1block__info_a4c3d34b045ddb4d0bc2be1ecb5a00aea}
+\hypertarget{structblock__header_1_1block__info_a64a2cad5d8a970fc47aff6409ba0fc3d}{}\index{block\+\_\+header\+::block\+\_\+info@{block\+\_\+header\+::block\+\_\+info}!prev@{prev}}
+\index{prev@{prev}!block\+\_\+header\+::block\+\_\+info@{block\+\_\+header\+::block\+\_\+info}}
+\subsubsection[{prev}]{\setlength{\rightskip}{0pt plus 5cm}union {\bf block\+\_\+header}$\ast$ block\+\_\+header\+::block\+\_\+info\+::prev}\label{structblock__header_1_1block__info_a64a2cad5d8a970fc47aff6409ba0fc3d}
+\hypertarget{structblock__header_1_1block__info_abf7257d0db0b11adfe263027f9fd08de}{}\index{block\+\_\+header\+::block\+\_\+info@{block\+\_\+header\+::block\+\_\+info}!tag@{tag}}
+\index{tag@{tag}!block\+\_\+header\+::block\+\_\+info@{block\+\_\+header\+::block\+\_\+info}}
+\subsubsection[{tag}]{\setlength{\rightskip}{0pt plus 5cm}int block\+\_\+header\+::block\+\_\+info\+::tag}\label{structblock__header_1_1block__info_abf7257d0db0b11adfe263027f9fd08de}
+
+
+The documentation for this struct was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+buddyzorz/\hyperlink{buddy_8h}{buddy.\+h}\end{DoxyCompactItemize}

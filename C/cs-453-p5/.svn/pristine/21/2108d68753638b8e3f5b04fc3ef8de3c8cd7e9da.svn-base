@@ -1,0 +1,308 @@
+\hypertarget{libsrc_2List_8c}{}\section{libsrc/\+List.c File Reference}
+\label{libsrc_2List_8c}\index{libsrc/\+List.\+c@{libsrc/\+List.\+c}}
+{\ttfamily \#include $<$stdio.\+h$>$}\\*
+{\ttfamily \#include $<$stdlib.\+h$>$}\\*
+{\ttfamily \#include \char`\"{}List.\+h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}Object.\+h\char`\"{}}\\*
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \hyperlink{libsrc_2List_8c_a5f33973347dd0e819c4277caa3c89e8d}{get\+Max\+Job\+Id} (const \hyperlink{include_2List_8h_a861ccde58c51198da7548ab818f1bbdd}{List\+Ptr} \hyperlink{structlist}{list})
+\begin{DoxyCompactList}\small\item\em A Doubly-\/linked List Class. \end{DoxyCompactList}\item 
+static void \hyperlink{libsrc_2List_8c_a371ecec3cccc55211c0f166be8d8e0d0}{print} (const \hyperlink{include_2Node_8h_aa6eec21621b8638e350fd0ec238a9715}{Node\+Ptr} \hyperlink{structnode}{node}, char $\ast$($\ast$\hyperlink{mylib_2Object_8h_a6dfc43d9b4cbc992846435ee727f3454}{to\+String})(const void $\ast$))
+\begin{DoxyCompactList}\small\item\em print \end{DoxyCompactList}\item 
+\hyperlink{include_2List_8h_a861ccde58c51198da7548ab818f1bbdd}{List\+Ptr} \hyperlink{libsrc_2List_8c_ac9beedc5dbdcce9fb20bfd5edbe2bd08}{create\+List} (int($\ast$\hyperlink{mylib_2Object_8h_a5cadf14267575f2ee8f0cf226af7a7aa}{compare\+To})(const void $\ast$, const void $\ast$), char $\ast$($\ast$\hyperlink{mylib_2Object_8h_a6dfc43d9b4cbc992846435ee727f3454}{to\+String})(const void $\ast$), void($\ast$\hyperlink{mylib_2Object_8h_ad224f50cb1912941fc68947b6fc03219}{free\+Object})(const void $\ast$))
+\begin{DoxyCompactList}\small\item\em create\+List \end{DoxyCompactList}\item 
+void \hyperlink{libsrc_2List_8c_a3e70fbbecac42e6573bf1d77224c524f}{free\+List} (const \hyperlink{include_2List_8h_a861ccde58c51198da7548ab818f1bbdd}{List\+Ptr} \hyperlink{structlist}{list})
+\begin{DoxyCompactList}\small\item\em free\+List \end{DoxyCompactList}\item 
+int \hyperlink{libsrc_2List_8c_ac9a7a9e45a4a5027b6c1152aa10e308c}{get\+Size} (const \hyperlink{include_2List_8h_a861ccde58c51198da7548ab818f1bbdd}{List\+Ptr} \hyperlink{structlist}{list})
+\begin{DoxyCompactList}\small\item\em get\+Size \end{DoxyCompactList}\item 
+\hyperlink{include_2common_8h_a127a96e09108f503cca20256eaa4ddff}{Boolean} \hyperlink{libsrc_2List_8c_a33df9606fa0bdaa19a354008f3b38539}{is\+Empty} (const \hyperlink{include_2List_8h_a861ccde58c51198da7548ab818f1bbdd}{List\+Ptr} \hyperlink{structlist}{list})
+\begin{DoxyCompactList}\small\item\em is\+Empty \end{DoxyCompactList}\item 
+void \hyperlink{libsrc_2List_8c_a476cc4f9f3eac74de69922b337d3f5d4}{add\+At\+Front} (\hyperlink{include_2List_8h_a861ccde58c51198da7548ab818f1bbdd}{List\+Ptr} \hyperlink{structlist}{list}, \hyperlink{include_2Node_8h_aa6eec21621b8638e350fd0ec238a9715}{Node\+Ptr} \hyperlink{structnode}{node})
+\begin{DoxyCompactList}\small\item\em add\+At\+Front \end{DoxyCompactList}\item 
+void \hyperlink{libsrc_2List_8c_a194ecb3333d63b8d9b65c9a1bc12e395}{add\+At\+Rear} (\hyperlink{include_2List_8h_a861ccde58c51198da7548ab818f1bbdd}{List\+Ptr} \hyperlink{structlist}{list}, \hyperlink{include_2Node_8h_aa6eec21621b8638e350fd0ec238a9715}{Node\+Ptr} \hyperlink{structnode}{node})
+\begin{DoxyCompactList}\small\item\em add\+At\+Rear \end{DoxyCompactList}\item 
+\hyperlink{include_2Node_8h_aa6eec21621b8638e350fd0ec238a9715}{Node\+Ptr} \hyperlink{libsrc_2List_8c_a21ea604b2c4b634c83152e4de532ca33}{remove\+Front} (\hyperlink{include_2List_8h_a861ccde58c51198da7548ab818f1bbdd}{List\+Ptr} \hyperlink{structlist}{list})
+\begin{DoxyCompactList}\small\item\em remove\+Front \end{DoxyCompactList}\item 
+\hyperlink{include_2Node_8h_aa6eec21621b8638e350fd0ec238a9715}{Node\+Ptr} \hyperlink{libsrc_2List_8c_a79b7613686651c0fdd9ba75859ab1cf4}{remove\+Rear} (\hyperlink{include_2List_8h_a861ccde58c51198da7548ab818f1bbdd}{List\+Ptr} \hyperlink{structlist}{list})
+\begin{DoxyCompactList}\small\item\em remove\+Rear \end{DoxyCompactList}\item 
+\hyperlink{include_2Node_8h_aa6eec21621b8638e350fd0ec238a9715}{Node\+Ptr} \hyperlink{libsrc_2List_8c_a7759b3a50942a4d588c73757ce2e15bf}{remove\+Node} (\hyperlink{include_2List_8h_a861ccde58c51198da7548ab818f1bbdd}{List\+Ptr} \hyperlink{structlist}{list}, \hyperlink{include_2Node_8h_aa6eec21621b8638e350fd0ec238a9715}{Node\+Ptr} \hyperlink{structnode}{node})
+\begin{DoxyCompactList}\small\item\em remove\+Node \end{DoxyCompactList}\item 
+\hyperlink{include_2Node_8h_aa6eec21621b8638e350fd0ec238a9715}{Node\+Ptr} \hyperlink{libsrc_2List_8c_aa5520d98825d2037e3d05b369c6e7dc1}{search} (const \hyperlink{include_2List_8h_a861ccde58c51198da7548ab818f1bbdd}{List\+Ptr} \hyperlink{structlist}{list}, const void $\ast$obj)
+\begin{DoxyCompactList}\small\item\em search \end{DoxyCompactList}\item 
+void \hyperlink{libsrc_2List_8c_a42c378a677c8e0bde841563f856f934f}{reverse\+List} (\hyperlink{include_2List_8h_a861ccde58c51198da7548ab818f1bbdd}{List\+Ptr} \hyperlink{structlist}{list})
+\begin{DoxyCompactList}\small\item\em reverse\+List \end{DoxyCompactList}\item 
+void \hyperlink{libsrc_2List_8c_ae06d135fd1ae5ca0754ef38cec8889d5}{print\+List} (const \hyperlink{include_2List_8h_a861ccde58c51198da7548ab818f1bbdd}{List\+Ptr} \hyperlink{structlist}{list})
+\begin{DoxyCompactList}\small\item\em print\+List \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Function Documentation}
+\hypertarget{libsrc_2List_8c_a476cc4f9f3eac74de69922b337d3f5d4}{}\index{libsrc/\+List.\+c@{libsrc/\+List.\+c}!add\+At\+Front@{add\+At\+Front}}
+\index{add\+At\+Front@{add\+At\+Front}!libsrc/\+List.\+c@{libsrc/\+List.\+c}}
+\subsubsection[{add\+At\+Front}]{\setlength{\rightskip}{0pt plus 5cm}void add\+At\+Front (
+\begin{DoxyParamCaption}
+\item[{{\bf List\+Ptr}}]{list, }
+\item[{{\bf Node\+Ptr}}]{node}
+\end{DoxyParamCaption}
+)}\label{libsrc_2List_8c_a476cc4f9f3eac74de69922b337d3f5d4}
+
+
+add\+At\+Front 
+
+Adds a node to the front of the list.
+
+Adds a node to the front of a list 
+\begin{DoxyParams}{Parameters}
+{\em list} & a pointer to the list being added too \\
+\hline
+{\em node} & a pointer to the node being added \\
+\hline
+\end{DoxyParams}
+\hypertarget{libsrc_2List_8c_a194ecb3333d63b8d9b65c9a1bc12e395}{}\index{libsrc/\+List.\+c@{libsrc/\+List.\+c}!add\+At\+Rear@{add\+At\+Rear}}
+\index{add\+At\+Rear@{add\+At\+Rear}!libsrc/\+List.\+c@{libsrc/\+List.\+c}}
+\subsubsection[{add\+At\+Rear}]{\setlength{\rightskip}{0pt plus 5cm}void add\+At\+Rear (
+\begin{DoxyParamCaption}
+\item[{{\bf List\+Ptr}}]{list, }
+\item[{{\bf Node\+Ptr}}]{node}
+\end{DoxyParamCaption}
+)}\label{libsrc_2List_8c_a194ecb3333d63b8d9b65c9a1bc12e395}
+
+
+add\+At\+Rear 
+
+Adds a node to the rear of the list.
+
+Adds a node to the rear of a list 
+\begin{DoxyParams}{Parameters}
+{\em list} & a pointer to the list being added too \\
+\hline
+{\em node} & a pointer to the node being added \\
+\hline
+\end{DoxyParams}
+\hypertarget{libsrc_2List_8c_ac9beedc5dbdcce9fb20bfd5edbe2bd08}{}\index{libsrc/\+List.\+c@{libsrc/\+List.\+c}!create\+List@{create\+List}}
+\index{create\+List@{create\+List}!libsrc/\+List.\+c@{libsrc/\+List.\+c}}
+\subsubsection[{create\+List}]{\setlength{\rightskip}{0pt plus 5cm}{\bf List\+Ptr} create\+List (
+\begin{DoxyParamCaption}
+\item[{int($\ast$)(const void $\ast$, const void $\ast$)}]{compare\+To, }
+\item[{char $\ast$($\ast$)(const void $\ast$)}]{to\+String, }
+\item[{void($\ast$)(const void $\ast$)}]{free\+Object}
+\end{DoxyParamCaption}
+)}\label{libsrc_2List_8c_ac9beedc5dbdcce9fb20bfd5edbe2bd08}
+
+
+create\+List 
+
+Constructor\+: Allocates a new List object and initializes its members.
+
+Creates a new list and returns a pointer to the list. 
+\begin{DoxyParams}{Parameters}
+{\em compare\+To} & a function pointer used for comparison of nodes. \\
+\hline
+{\em to\+String} & a function pointer used for String converstion. \\
+\hline
+{\em free\+Object} & a function pointer used for deallocate generic object types. \\
+\hline
+\end{DoxyParams}
+\hypertarget{libsrc_2List_8c_a3e70fbbecac42e6573bf1d77224c524f}{}\index{libsrc/\+List.\+c@{libsrc/\+List.\+c}!free\+List@{free\+List}}
+\index{free\+List@{free\+List}!libsrc/\+List.\+c@{libsrc/\+List.\+c}}
+\subsubsection[{free\+List}]{\setlength{\rightskip}{0pt plus 5cm}void free\+List (
+\begin{DoxyParamCaption}
+\item[{const {\bf List\+Ptr}}]{list}
+\end{DoxyParamCaption}
+)}\label{libsrc_2List_8c_a3e70fbbecac42e6573bf1d77224c524f}
+
+
+free\+List 
+
+Frees all elements of the given list and the {\ttfamily List\+Ptr} itself.
+
+Frees each individual node and then frees the list\textquotesingle{}s allocated memory. 
+\begin{DoxyParams}{Parameters}
+{\em list} & a pointer to the list to be deallocated \\
+\hline
+\end{DoxyParams}
+\hypertarget{libsrc_2List_8c_a5f33973347dd0e819c4277caa3c89e8d}{}\index{libsrc/\+List.\+c@{libsrc/\+List.\+c}!get\+Max\+Job\+Id@{get\+Max\+Job\+Id}}
+\index{get\+Max\+Job\+Id@{get\+Max\+Job\+Id}!libsrc/\+List.\+c@{libsrc/\+List.\+c}}
+\subsubsection[{get\+Max\+Job\+Id}]{\setlength{\rightskip}{0pt plus 5cm}int get\+Max\+Job\+Id (
+\begin{DoxyParamCaption}
+\item[{const {\bf List\+Ptr}}]{list}
+\end{DoxyParamCaption}
+)}\label{libsrc_2List_8c_a5f33973347dd0e819c4277caa3c89e8d}
+
+
+A Doubly-\/linked List Class. 
+
+\hypertarget{libsrc_2List_8c_ac9a7a9e45a4a5027b6c1152aa10e308c}{}\index{libsrc/\+List.\+c@{libsrc/\+List.\+c}!get\+Size@{get\+Size}}
+\index{get\+Size@{get\+Size}!libsrc/\+List.\+c@{libsrc/\+List.\+c}}
+\subsubsection[{get\+Size}]{\setlength{\rightskip}{0pt plus 5cm}int get\+Size (
+\begin{DoxyParamCaption}
+\item[{const {\bf List\+Ptr}}]{list}
+\end{DoxyParamCaption}
+)}\label{libsrc_2List_8c_ac9a7a9e45a4a5027b6c1152aa10e308c}
+
+
+get\+Size 
+
+Returns the size of the given list.
+
+Returns the current size of the list 
+\begin{DoxyParams}{Parameters}
+{\em list} & a pointer to the list being checked for size. \\
+\hline
+\end{DoxyParams}
+\hypertarget{libsrc_2List_8c_a33df9606fa0bdaa19a354008f3b38539}{}\index{libsrc/\+List.\+c@{libsrc/\+List.\+c}!is\+Empty@{is\+Empty}}
+\index{is\+Empty@{is\+Empty}!libsrc/\+List.\+c@{libsrc/\+List.\+c}}
+\subsubsection[{is\+Empty}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Boolean} is\+Empty (
+\begin{DoxyParamCaption}
+\item[{const {\bf List\+Ptr}}]{list}
+\end{DoxyParamCaption}
+)}\label{libsrc_2List_8c_a33df9606fa0bdaa19a354008f3b38539}
+
+
+is\+Empty 
+
+Checks if the list is empty.
+
+Returns the status of whether a list has elements. 
+\begin{DoxyParams}{Parameters}
+{\em list} & a pointer to the list being checked if empty. \\
+\hline
+\end{DoxyParams}
+\hypertarget{libsrc_2List_8c_a371ecec3cccc55211c0f166be8d8e0d0}{}\index{libsrc/\+List.\+c@{libsrc/\+List.\+c}!print@{print}}
+\index{print@{print}!libsrc/\+List.\+c@{libsrc/\+List.\+c}}
+\subsubsection[{print}]{\setlength{\rightskip}{0pt plus 5cm}static void print (
+\begin{DoxyParamCaption}
+\item[{const {\bf Node\+Ptr}}]{node, }
+\item[{char $\ast$($\ast$)(const void $\ast$)}]{to\+String}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\label{libsrc_2List_8c_a371ecec3cccc55211c0f166be8d8e0d0}
+
+
+print 
+
+Prints a human readable representation of a given node\textquotesingle{}s object 
+\begin{DoxyParams}{Parameters}
+{\em list} & a pointer to the node being printed \\
+\hline
+{\em to\+String} & a function pointer to the to\+String method in use \\
+\hline
+\end{DoxyParams}
+\hypertarget{libsrc_2List_8c_ae06d135fd1ae5ca0754ef38cec8889d5}{}\index{libsrc/\+List.\+c@{libsrc/\+List.\+c}!print\+List@{print\+List}}
+\index{print\+List@{print\+List}!libsrc/\+List.\+c@{libsrc/\+List.\+c}}
+\subsubsection[{print\+List}]{\setlength{\rightskip}{0pt plus 5cm}void print\+List (
+\begin{DoxyParamCaption}
+\item[{const {\bf List\+Ptr}}]{list}
+\end{DoxyParamCaption}
+)}\label{libsrc_2List_8c_ae06d135fd1ae5ca0754ef38cec8889d5}
+
+
+print\+List 
+
+Prints the list.
+
+Prints a human readable list of a list and it\textquotesingle{}s contents 
+\begin{DoxyParams}{Parameters}
+{\em list} & a pointer to the list being printed \\
+\hline
+\end{DoxyParams}
+\hypertarget{libsrc_2List_8c_a21ea604b2c4b634c83152e4de532ca33}{}\index{libsrc/\+List.\+c@{libsrc/\+List.\+c}!remove\+Front@{remove\+Front}}
+\index{remove\+Front@{remove\+Front}!libsrc/\+List.\+c@{libsrc/\+List.\+c}}
+\subsubsection[{remove\+Front}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Node\+Ptr} remove\+Front (
+\begin{DoxyParamCaption}
+\item[{{\bf List\+Ptr}}]{list}
+\end{DoxyParamCaption}
+)}\label{libsrc_2List_8c_a21ea604b2c4b634c83152e4de532ca33}
+
+
+remove\+Front 
+
+Removes the node from the front of the list (the head node) and returns a pointer to the node that was removed.
+
+Removes the front node of a list 
+\begin{DoxyParams}{Parameters}
+{\em list} & a pointer to the list being removed from \\
+\hline
+{\em node} & a pointer to the node being removed \\
+\hline
+\end{DoxyParams}
+\hypertarget{libsrc_2List_8c_a7759b3a50942a4d588c73757ce2e15bf}{}\index{libsrc/\+List.\+c@{libsrc/\+List.\+c}!remove\+Node@{remove\+Node}}
+\index{remove\+Node@{remove\+Node}!libsrc/\+List.\+c@{libsrc/\+List.\+c}}
+\subsubsection[{remove\+Node}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Node\+Ptr} remove\+Node (
+\begin{DoxyParamCaption}
+\item[{{\bf List\+Ptr}}]{list, }
+\item[{{\bf Node\+Ptr}}]{node}
+\end{DoxyParamCaption}
+)}\label{libsrc_2List_8c_a7759b3a50942a4d588c73757ce2e15bf}
+
+
+remove\+Node 
+
+Removes the node pointed to by the given node pointer from the list and returns the pointer to it.
+
+Removes a node from a given list 
+\begin{DoxyParams}{Parameters}
+{\em list} & a pointer to the list being removed from \\
+\hline
+{\em node} & a pointer to the node being removed \\
+\hline
+\end{DoxyParams}
+\hypertarget{libsrc_2List_8c_a79b7613686651c0fdd9ba75859ab1cf4}{}\index{libsrc/\+List.\+c@{libsrc/\+List.\+c}!remove\+Rear@{remove\+Rear}}
+\index{remove\+Rear@{remove\+Rear}!libsrc/\+List.\+c@{libsrc/\+List.\+c}}
+\subsubsection[{remove\+Rear}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Node\+Ptr} remove\+Rear (
+\begin{DoxyParamCaption}
+\item[{{\bf List\+Ptr}}]{list}
+\end{DoxyParamCaption}
+)}\label{libsrc_2List_8c_a79b7613686651c0fdd9ba75859ab1cf4}
+
+
+remove\+Rear 
+
+Removes the node from the rear of the list (the tail node) and returns a pointer to the node that was removed.
+
+Removes the rear node of a list 
+\begin{DoxyParams}{Parameters}
+{\em list} & a pointer to the list being removed from \\
+\hline
+{\em node} & a pointer to the node being removed \\
+\hline
+\end{DoxyParams}
+\hypertarget{libsrc_2List_8c_a42c378a677c8e0bde841563f856f934f}{}\index{libsrc/\+List.\+c@{libsrc/\+List.\+c}!reverse\+List@{reverse\+List}}
+\index{reverse\+List@{reverse\+List}!libsrc/\+List.\+c@{libsrc/\+List.\+c}}
+\subsubsection[{reverse\+List}]{\setlength{\rightskip}{0pt plus 5cm}void reverse\+List (
+\begin{DoxyParamCaption}
+\item[{{\bf List\+Ptr}}]{list}
+\end{DoxyParamCaption}
+)}\label{libsrc_2List_8c_a42c378a677c8e0bde841563f856f934f}
+
+
+reverse\+List 
+
+Reverses the order of the given list.
+
+Reverses the order of a given list 
+\begin{DoxyParams}{Parameters}
+{\em list} & a pointer to the list being searched \\
+\hline
+\end{DoxyParams}
+\hypertarget{libsrc_2List_8c_aa5520d98825d2037e3d05b369c6e7dc1}{}\index{libsrc/\+List.\+c@{libsrc/\+List.\+c}!search@{search}}
+\index{search@{search}!libsrc/\+List.\+c@{libsrc/\+List.\+c}}
+\subsubsection[{search}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Node\+Ptr} search (
+\begin{DoxyParamCaption}
+\item[{const {\bf List\+Ptr}}]{list, }
+\item[{const void $\ast$}]{obj}
+\end{DoxyParamCaption}
+)}\label{libsrc_2List_8c_aa5520d98825d2037e3d05b369c6e7dc1}
+
+
+search 
+
+Searches the list for a node with the given key and returns the pointer to the found node.
+
+searches a given list for a node containing a given object 
+\begin{DoxyParams}{Parameters}
+{\em list} & a pointer to the list being searched \\
+\hline
+{\em obj} & a pointer to an object being searched for \\
+\hline
+\end{DoxyParams}

@@ -1,0 +1,28 @@
+\hypertarget{libsrc_2Node_8c}{}\section{libsrc/\+Node.c File Reference}
+\label{libsrc_2Node_8c}\index{libsrc/\+Node.\+c@{libsrc/\+Node.\+c}}
+{\ttfamily \#include \char`\"{}Node.\+h\char`\"{}}\\*
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{include_2Node_8h_aa6eec21621b8638e350fd0ec238a9715}{Node\+Ptr} \hyperlink{libsrc_2Node_8c_a7e935be7098e9f8fd94ca88245907c05}{create\+Node} (const void $\ast$obj)
+\item 
+void \hyperlink{libsrc_2Node_8c_ac044884ec72d2928d62fcf648f60fdee}{free\+Node} (const \hyperlink{include_2Node_8h_aa6eec21621b8638e350fd0ec238a9715}{Node\+Ptr} \hyperlink{structnode}{node}, void($\ast$\hyperlink{mylib_2Object_8h_ad224f50cb1912941fc68947b6fc03219}{free\+Object})(const void $\ast$))
+\end{DoxyCompactItemize}
+
+
+\subsection{Function Documentation}
+\hypertarget{libsrc_2Node_8c_a7e935be7098e9f8fd94ca88245907c05}{}\index{libsrc/\+Node.\+c@{libsrc/\+Node.\+c}!create\+Node@{create\+Node}}
+\index{create\+Node@{create\+Node}!libsrc/\+Node.\+c@{libsrc/\+Node.\+c}}
+\subsubsection[{create\+Node}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Node\+Ptr} create\+Node (
+\begin{DoxyParamCaption}
+\item[{const void $\ast$}]{obj}
+\end{DoxyParamCaption}
+)}\label{libsrc_2Node_8c_a7e935be7098e9f8fd94ca88245907c05}
+\hypertarget{libsrc_2Node_8c_ac044884ec72d2928d62fcf648f60fdee}{}\index{libsrc/\+Node.\+c@{libsrc/\+Node.\+c}!free\+Node@{free\+Node}}
+\index{free\+Node@{free\+Node}!libsrc/\+Node.\+c@{libsrc/\+Node.\+c}}
+\subsubsection[{free\+Node}]{\setlength{\rightskip}{0pt plus 5cm}void free\+Node (
+\begin{DoxyParamCaption}
+\item[{const {\bf Node\+Ptr}}]{node, }
+\item[{void($\ast$)(const void $\ast$)}]{free\+Object}
+\end{DoxyParamCaption}
+)}\label{libsrc_2Node_8c_ac044884ec72d2928d62fcf648f60fdee}

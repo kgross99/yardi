@@ -1,0 +1,33 @@
+
+
+#ifndef __OBJECT_H
+#define __OBJECT_H
+
+#include <stdio.h>
+#include <stdlib.h>
+#include "common.h"
+
+#define MAXPID_DIGITS 20
+
+/* header file for object.c used to hold the objects in the linked list
+@author kgross
+*/
+
+
+typedef struct object  Object;
+typedef struct object *ObjectPtr;
+
+struct object {
+	int key;
+	char *data;
+	int jobid;
+};
+
+ObjectPtr createObject (const int, const char *);
+
+char *toString(const void *);
+void freeObject(const void *);
+int compareTo(const void *,const void *);
+
+
+#endif /* __OBJECT_H */

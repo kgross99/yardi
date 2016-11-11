@@ -1,0 +1,73 @@
+\hypertarget{malloc-test_8c}{}\section{buddyzorz/malloc-\/test.c File Reference}
+\label{malloc-test_8c}\index{buddyzorz/malloc-\/test.\+c@{buddyzorz/malloc-\/test.\+c}}
+{\ttfamily \#include $<$stdio.\+h$>$}\\*
+{\ttfamily \#include $<$stdlib.\+h$>$}\\*
+{\ttfamily \#include $<$string.\+h$>$}\\*
+\subsection*{Data Structures}
+\begin{DoxyCompactItemize}
+\item 
+struct \hyperlink{structelement}{element}
+\end{DoxyCompactItemize}
+\subsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\#define \hyperlink{malloc-test_8c_a79dc55ceff5acfd97aabd01db632a266}{M\+A\+X\+\_\+\+R\+E\+Q\+U\+E\+S\+T}~4096
+\item 
+\#define \hyperlink{malloc-test_8c_a1b40ceb455086d9cdb68ed3d3bf2775f}{M\+A\+X\+\_\+\+I\+T\+E\+M\+S}~100
+\item 
+\#define \hyperlink{malloc-test_8c_a404d5107b2cc06d2e236b7320df1fa7d}{S\+I\+L\+E\+N\+T}~0
+\item 
+\#define \hyperlink{malloc-test_8c_ae70000f46dd84121830128e1701090ee}{T\+E\+R\+S\+E}~1
+\item 
+\#define \hyperlink{malloc-test_8c_a42f8c497a1968074f38bf5055c650dca}{V\+E\+R\+B\+O\+S\+E}~2
+\item 
+\#define \hyperlink{malloc-test_8c_aa68dfac40a260bde9272c46bdf82613a}{I\+N\+T\+E\+R\+A\+C\+T\+I\+V\+E}~3
+\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \hyperlink{malloc-test_8c_a0ddf1224851353fc92bfbff6f499fa97}{main} (int argc, char $\ast$argv\mbox{[}$\,$\mbox{]})
+\end{DoxyCompactItemize}
+\subsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+int \hyperlink{malloc-test_8c_a1bdcfae3209cbd96db35a2ae356fa15e}{verbosity} = \hyperlink{malloc-test_8c_ae70000f46dd84121830128e1701090ee}{T\+E\+R\+S\+E}
+\end{DoxyCompactItemize}
+
+
+\subsection{Macro Definition Documentation}
+\hypertarget{malloc-test_8c_aa68dfac40a260bde9272c46bdf82613a}{}\index{malloc-\/test.\+c@{malloc-\/test.\+c}!I\+N\+T\+E\+R\+A\+C\+T\+I\+V\+E@{I\+N\+T\+E\+R\+A\+C\+T\+I\+V\+E}}
+\index{I\+N\+T\+E\+R\+A\+C\+T\+I\+V\+E@{I\+N\+T\+E\+R\+A\+C\+T\+I\+V\+E}!malloc-\/test.\+c@{malloc-\/test.\+c}}
+\subsubsection[{I\+N\+T\+E\+R\+A\+C\+T\+I\+V\+E}]{\setlength{\rightskip}{0pt plus 5cm}\#define I\+N\+T\+E\+R\+A\+C\+T\+I\+V\+E~3}\label{malloc-test_8c_aa68dfac40a260bde9272c46bdf82613a}
+\hypertarget{malloc-test_8c_a1b40ceb455086d9cdb68ed3d3bf2775f}{}\index{malloc-\/test.\+c@{malloc-\/test.\+c}!M\+A\+X\+\_\+\+I\+T\+E\+M\+S@{M\+A\+X\+\_\+\+I\+T\+E\+M\+S}}
+\index{M\+A\+X\+\_\+\+I\+T\+E\+M\+S@{M\+A\+X\+\_\+\+I\+T\+E\+M\+S}!malloc-\/test.\+c@{malloc-\/test.\+c}}
+\subsubsection[{M\+A\+X\+\_\+\+I\+T\+E\+M\+S}]{\setlength{\rightskip}{0pt plus 5cm}\#define M\+A\+X\+\_\+\+I\+T\+E\+M\+S~100}\label{malloc-test_8c_a1b40ceb455086d9cdb68ed3d3bf2775f}
+\hypertarget{malloc-test_8c_a79dc55ceff5acfd97aabd01db632a266}{}\index{malloc-\/test.\+c@{malloc-\/test.\+c}!M\+A\+X\+\_\+\+R\+E\+Q\+U\+E\+S\+T@{M\+A\+X\+\_\+\+R\+E\+Q\+U\+E\+S\+T}}
+\index{M\+A\+X\+\_\+\+R\+E\+Q\+U\+E\+S\+T@{M\+A\+X\+\_\+\+R\+E\+Q\+U\+E\+S\+T}!malloc-\/test.\+c@{malloc-\/test.\+c}}
+\subsubsection[{M\+A\+X\+\_\+\+R\+E\+Q\+U\+E\+S\+T}]{\setlength{\rightskip}{0pt plus 5cm}\#define M\+A\+X\+\_\+\+R\+E\+Q\+U\+E\+S\+T~4096}\label{malloc-test_8c_a79dc55ceff5acfd97aabd01db632a266}
+\hypertarget{malloc-test_8c_a404d5107b2cc06d2e236b7320df1fa7d}{}\index{malloc-\/test.\+c@{malloc-\/test.\+c}!S\+I\+L\+E\+N\+T@{S\+I\+L\+E\+N\+T}}
+\index{S\+I\+L\+E\+N\+T@{S\+I\+L\+E\+N\+T}!malloc-\/test.\+c@{malloc-\/test.\+c}}
+\subsubsection[{S\+I\+L\+E\+N\+T}]{\setlength{\rightskip}{0pt plus 5cm}\#define S\+I\+L\+E\+N\+T~0}\label{malloc-test_8c_a404d5107b2cc06d2e236b7320df1fa7d}
+\hypertarget{malloc-test_8c_ae70000f46dd84121830128e1701090ee}{}\index{malloc-\/test.\+c@{malloc-\/test.\+c}!T\+E\+R\+S\+E@{T\+E\+R\+S\+E}}
+\index{T\+E\+R\+S\+E@{T\+E\+R\+S\+E}!malloc-\/test.\+c@{malloc-\/test.\+c}}
+\subsubsection[{T\+E\+R\+S\+E}]{\setlength{\rightskip}{0pt plus 5cm}\#define T\+E\+R\+S\+E~1}\label{malloc-test_8c_ae70000f46dd84121830128e1701090ee}
+\hypertarget{malloc-test_8c_a42f8c497a1968074f38bf5055c650dca}{}\index{malloc-\/test.\+c@{malloc-\/test.\+c}!V\+E\+R\+B\+O\+S\+E@{V\+E\+R\+B\+O\+S\+E}}
+\index{V\+E\+R\+B\+O\+S\+E@{V\+E\+R\+B\+O\+S\+E}!malloc-\/test.\+c@{malloc-\/test.\+c}}
+\subsubsection[{V\+E\+R\+B\+O\+S\+E}]{\setlength{\rightskip}{0pt plus 5cm}\#define V\+E\+R\+B\+O\+S\+E~2}\label{malloc-test_8c_a42f8c497a1968074f38bf5055c650dca}
+
+
+\subsection{Function Documentation}
+\hypertarget{malloc-test_8c_a0ddf1224851353fc92bfbff6f499fa97}{}\index{malloc-\/test.\+c@{malloc-\/test.\+c}!main@{main}}
+\index{main@{main}!malloc-\/test.\+c@{malloc-\/test.\+c}}
+\subsubsection[{main}]{\setlength{\rightskip}{0pt plus 5cm}int main (
+\begin{DoxyParamCaption}
+\item[{int}]{argc, }
+\item[{char $\ast$}]{argv\mbox{[}$\,$\mbox{]}}
+\end{DoxyParamCaption}
+)}\label{malloc-test_8c_a0ddf1224851353fc92bfbff6f499fa97}
+
+
+\subsection{Variable Documentation}
+\hypertarget{malloc-test_8c_a1bdcfae3209cbd96db35a2ae356fa15e}{}\index{malloc-\/test.\+c@{malloc-\/test.\+c}!verbosity@{verbosity}}
+\index{verbosity@{verbosity}!malloc-\/test.\+c@{malloc-\/test.\+c}}
+\subsubsection[{verbosity}]{\setlength{\rightskip}{0pt plus 5cm}int verbosity = {\bf T\+E\+R\+S\+E}}\label{malloc-test_8c_a1bdcfae3209cbd96db35a2ae356fa15e}

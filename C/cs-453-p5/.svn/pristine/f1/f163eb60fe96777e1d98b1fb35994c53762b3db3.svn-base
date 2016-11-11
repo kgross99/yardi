@@ -1,0 +1,17 @@
+\hypertarget{svn__version_8c}{}\section{svn\+\_\+version.\+c File Reference}
+\label{svn__version_8c}\index{svn\+\_\+version.\+c@{svn\+\_\+version.\+c}}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+const char $\ast$ \hyperlink{svn__version_8c_a35b218ad75944a14eabbb6381ca2e970}{svn\+\_\+version} (void)
+\end{DoxyCompactItemize}
+
+
+\subsection{Function Documentation}
+\hypertarget{svn__version_8c_a35b218ad75944a14eabbb6381ca2e970}{}\index{svn\+\_\+version.\+c@{svn\+\_\+version.\+c}!svn\+\_\+version@{svn\+\_\+version}}
+\index{svn\+\_\+version@{svn\+\_\+version}!svn\+\_\+version.\+c@{svn\+\_\+version.\+c}}
+\subsubsection[{svn\+\_\+version}]{\setlength{\rightskip}{0pt plus 5cm}const char$\ast$ svn\+\_\+version (
+\begin{DoxyParamCaption}
+\item[{void}]{}
+\end{DoxyParamCaption}
+)}\label{svn__version_8c_a35b218ad75944a14eabbb6381ca2e970}

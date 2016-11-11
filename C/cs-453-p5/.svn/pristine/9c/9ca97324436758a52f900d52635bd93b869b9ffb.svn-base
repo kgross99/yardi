@@ -1,0 +1,6 @@
+var searchData=
+[
+  ['tostring',['toString',['../include_2Object_8h.html#a6dfc43d9b4cbc992846435ee727f3454',1,'toString(const void *):&#160;Object.c'],['../Object_8c.html#a3c2b7655dfda066cd088c4f1016dd8f5',1,'toString(const void *obj):&#160;Object.c'],['../libsrc_2Object_8h.html#a6dfc43d9b4cbc992846435ee727f3454',1,'toString(const void *):&#160;Object.c'],['../mylib_2Object_8h.html#a6dfc43d9b4cbc992846435ee727f3454',1,'toString(const void *):&#160;Object.c']]],
+  ['trim_5fleading_5fand_5ftrailing_5fwhitespace',['trim_leading_and_trailing_whitespace',['../mydash_8h.html#af2c33993823763083f4be22a931746de',1,'mydash.h']]],
+  ['trim_5ftrailing_5fwhitespace',['trim_trailing_whitespace',['../mydash_8c.html#a0c88b4deda038d11821900546ad14ff5',1,'mydash.c']]]
+];

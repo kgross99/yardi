@@ -1,0 +1,28 @@
+\hypertarget{mylib_2Node_8c}{}\section{mylib/\+Node.c File Reference}
+\label{mylib_2Node_8c}\index{mylib/\+Node.\+c@{mylib/\+Node.\+c}}
+{\ttfamily \#include \char`\"{}Node.\+h\char`\"{}}\\*
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{include_2Node_8h_aa6eec21621b8638e350fd0ec238a9715}{Node\+Ptr} \hyperlink{mylib_2Node_8c_a133f1fa72f162ae506de8bbc74bb5c22}{create\+Node} (void $\ast$obj)
+\item 
+void \hyperlink{mylib_2Node_8c_a709c4431d03d50ebc27bf37a333ca71e}{free\+Node} (\hyperlink{include_2Node_8h_aa6eec21621b8638e350fd0ec238a9715}{Node\+Ptr} \hyperlink{structnode}{node}, void($\ast$\hyperlink{mylib_2Object_8h_ad224f50cb1912941fc68947b6fc03219}{free\+Object})(const void $\ast$))
+\end{DoxyCompactItemize}
+
+
+\subsection{Function Documentation}
+\hypertarget{mylib_2Node_8c_a133f1fa72f162ae506de8bbc74bb5c22}{}\index{mylib/\+Node.\+c@{mylib/\+Node.\+c}!create\+Node@{create\+Node}}
+\index{create\+Node@{create\+Node}!mylib/\+Node.\+c@{mylib/\+Node.\+c}}
+\subsubsection[{create\+Node}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Node\+Ptr} create\+Node (
+\begin{DoxyParamCaption}
+\item[{void $\ast$}]{obj}
+\end{DoxyParamCaption}
+)}\label{mylib_2Node_8c_a133f1fa72f162ae506de8bbc74bb5c22}
+\hypertarget{mylib_2Node_8c_a709c4431d03d50ebc27bf37a333ca71e}{}\index{mylib/\+Node.\+c@{mylib/\+Node.\+c}!free\+Node@{free\+Node}}
+\index{free\+Node@{free\+Node}!mylib/\+Node.\+c@{mylib/\+Node.\+c}}
+\subsubsection[{free\+Node}]{\setlength{\rightskip}{0pt plus 5cm}void free\+Node (
+\begin{DoxyParamCaption}
+\item[{{\bf Node\+Ptr}}]{node, }
+\item[{void($\ast$)(const void $\ast$)}]{free\+Object}
+\end{DoxyParamCaption}
+)}\label{mylib_2Node_8c_a709c4431d03d50ebc27bf37a333ca71e}

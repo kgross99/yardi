@@ -1,0 +1,32 @@
+\hypertarget{unionblock__header}{}\section{block\+\_\+header Union Reference}
+\label{unionblock__header}\index{block\+\_\+header@{block\+\_\+header}}
+
+
+{\ttfamily \#include $<$buddy.\+h$>$}
+
+\subsection*{Data Structures}
+\begin{DoxyCompactItemize}
+\item 
+struct \hyperlink{structblock__header_1_1block__info}{block\+\_\+info}
+\end{DoxyCompactItemize}
+\subsection*{Data Fields}
+\begin{DoxyCompactItemize}
+\item 
+struct \hyperlink{structblock__header_1_1block__info}{block\+\_\+header\+::block\+\_\+info} \hyperlink{unionblock__header_a4fd4fae394b9d848d189b962d2553de8}{data}
+\item 
+double \hyperlink{unionblock__header_af2b0f699d4cbbc1da17eec9915271402}{align}
+\end{DoxyCompactItemize}
+
+
+\subsection{Field Documentation}
+\hypertarget{unionblock__header_af2b0f699d4cbbc1da17eec9915271402}{}\index{block\+\_\+header@{block\+\_\+header}!align@{align}}
+\index{align@{align}!block\+\_\+header@{block\+\_\+header}}
+\subsubsection[{align}]{\setlength{\rightskip}{0pt plus 5cm}double block\+\_\+header\+::align}\label{unionblock__header_af2b0f699d4cbbc1da17eec9915271402}
+\hypertarget{unionblock__header_a4fd4fae394b9d848d189b962d2553de8}{}\index{block\+\_\+header@{block\+\_\+header}!data@{data}}
+\index{data@{data}!block\+\_\+header@{block\+\_\+header}}
+\subsubsection[{data}]{\setlength{\rightskip}{0pt plus 5cm}struct {\bf block\+\_\+header\+::block\+\_\+info} block\+\_\+header\+::data}\label{unionblock__header_a4fd4fae394b9d848d189b962d2553de8}
+
+
+The documentation for this union was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+buddyzorz/\hyperlink{buddy_8h}{buddy.\+h}\end{DoxyCompactItemize}
