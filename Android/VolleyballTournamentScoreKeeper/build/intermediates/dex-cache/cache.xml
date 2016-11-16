@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="I:\402\VolleyballTournamentScoreKeeper\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\jars\libs\internal_impl-23.0.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="8bd336eeae661e8311330284897ee07f8ebaa297">
+        <dex dex="I:\402\VolleyballTournamentScoreKeeper\app\build\intermediates\pre-dexed\debug\internal_impl-23.0.0-5f074d8c86274e678ad3a1e387891ed36bd8f860.jar" />
+    </item>
+    <item
+        jar="C:\Users\kim\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.0.0\support-annotations-23.0.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="990e7f98a7bad86a40b1f0bcfeb039023afd0839">
+        <dex dex="I:\402\VolleyballTournamentScoreKeeper\app\build\intermediates\pre-dexed\debug\support-annotations-23.0.0-6410d50f73d7eaaea6efb16c77d26e4a2bb90585.jar" />
+    </item>
+    <item
+        jar="I:\402\VolleyballTournamentScoreKeeper\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="40e7757d9b06db670062ddb3cf5b30c129b2fd8c">
+        <dex dex="I:\402\VolleyballTournamentScoreKeeper\app\build\intermediates\pre-dexed\debug\classes-c37514edc0f590b2dbb2db8c022f05713428035a.jar" />
+    </item>
+    <item
+        jar="I:\402\VolleyballTournamentScoreKeeper\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="4fcf0b1879f8caf497c073e1432d398e9e2988c1">
+        <dex dex="I:\402\VolleyballTournamentScoreKeeper\app\build\intermediates\pre-dexed\debug\classes-bec6249a197a226090e0fd90f272cb756b6b3349.jar" />
+    </item>
+    <item
+        jar="I:\402\VolleyballTournamentScoreKeeper\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="8413c27b45b7fe61dca4a98159f65e2cee215f5a">
+        <dex dex="I:\402\VolleyballTournamentScoreKeeper\app\build\intermediates\pre-dexed\debug\classes-816dc66e1db4a389aed5d867b7553bc8b13b920f.jar" />
+    </item>
+
+</items>
